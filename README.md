@@ -57,6 +57,8 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Avaliação responsável de regras](notebooks/unidade_04/04_05_avaliacao_responsavel_de_regras.ipynb)
    - [Exercícios conceituais](exercicios/unidade_04/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_04/multipla_escolha.md)
+6. Unidade V — Classificação e Regressão
+   - [Processo e avaliação de classificação](notebooks/unidade_05/05_01_processo_e_avaliacao_de_classificacao.ipynb)
 
 Os gabaritos ficam exclusivamente em `gabaritos/`, separados do material do estudante. Toda questão das listas e dos notebooks deve possuir resposta associada nessa pasta.
 

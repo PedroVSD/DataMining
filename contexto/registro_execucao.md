@@ -21,7 +21,7 @@ Estados permitidos:
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
-| Unidade V — Classificação e Regressão | Não iniciada | 0% | — | — |
+| Unidade V — Classificação e Regressão | Em andamento | 25% | 2026-09-26 | Escopo ajustado ao olhar de mineração de dados; notebook 05.01 produzido e validado |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
@@ -44,7 +44,7 @@ Estados permitidos:
 | `04_03_avaliacao_e_padroes_sequenciais.ipynb` | Leverage e conviction | Concluída | Concluída | Aprovada | Concluída |
 | `04_04_padroes_sequenciais.ipynb` | Padrões sequenciais | Concluída | Concluída | Aprovada | Concluída |
 | `04_05_avaliacao_responsavel_de_regras.ipynb` | Avaliação responsável de regras | Concluída | Concluída | Aprovada | Concluída |
-| `05_01_processo_e_avaliacao_de_classificacao.ipynb` | Processo e métricas | Pendente | Pendente | Pendente | Pendente |
+| `05_01_processo_e_avaliacao_de_classificacao.ipynb` | Processo e métricas | Concluída | Concluída | Aprovada | Concluída |
 | `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Pendente | Pendente | Pendente | Pendente |
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Pendente | Pendente | Pendente | Pendente |
 | `05_04_regressao_linear.ipynb` | Regressão linear | Pendente | Pendente | Pendente | Pendente |
@@ -67,6 +67,16 @@ Estados permitidos:
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-09-26
+
+- Ampliada a Unidade V em `resumo_disciplina.md` com formulação supervisionada, treino/teste, *baseline*, vazamento, matriz de confusão, custos dos erros e avaliação de regressão.
+- Delimitado no plano que a unidade apresenta intuição, aplicação e interpretação dos métodos sob a perspectiva de mineração de dados, sem aprofundamento próprio de uma disciplina especializada de aprendizado de máquina.
+- Produzido o notebook `05_01_processo_e_avaliacao_de_classificacao.ipynb`, baseado nas seções 6.1 e 6.6 de Han, Pei e Tong.
+- Criado estudo de caso sintético de retenção com unidade de análise, alvo temporal, separação estratificada, *baseline* e árvore rasa.
+- Explicadas matriz de confusão, acurácia, precisão, revocação, F1, ROC-AUC, limiar e custo dos erros com interpretação contextual e ressalva não causal.
+- Criadas três atividades `U05-NB01-*` e gabarito separado com cálculos completos e rubricas.
+- Notebook executado com `uv`: 20 células, seis de código, identificadores únicos e nenhuma saída de erro.
 
 ### 2026-09-21
 

@@ -67,10 +67,14 @@ Ao final da disciplina, o aluno deve:
 
 ### Unidade V — Classificação e Regressão
 
-- Processo de classificação.
-- Classificadores bayesianos, k-NN e árvores de decisão.
-- Regressão linear simples e múltipla.
-- Avaliação de classificadores.
+- Formulação de problemas supervisionados: atributos, variável-alvo e unidade de análise.
+- Diferença entre classificação, que prevê categorias, e regressão, que estima valores numéricos.
+- Processo de classificação: exemplos rotulados, treinamento, teste e aplicação a novos casos.
+- Separação entre treino e teste, comparação com uma referência simples (*baseline*) e prevenção de vazamento de dados.
+- Avaliação de classificadores por matriz de confusão, acurácia, precisão, revocação e medida F1, considerando desbalanceamento e custo dos erros.
+- Intuição, aplicação e limitações de classificadores bayesianos, k-NN e árvores de decisão.
+- Intuição da regressão linear simples e múltipla, interpretação de previsões e resíduos.
+- Avaliação da regressão por MAE, RMSE e coeficiente de determinação, sem interpretação causal automática dos coeficientes.
 
 ### Unidade VI — Análise de Grupos
 

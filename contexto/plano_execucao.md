@@ -275,43 +275,49 @@ Antes da Unidade I:
 ### Unidade V — Classificação e Regressão
 
 **Carga prevista:** 12 horas  
-**Referência principal no livro:** Capítulo 6, seções 6.1–6.6. Para regressão, seção 6.5 e complemento conceitual específico.
+**Referência principal no livro:** Capítulo 6, especialmente seções 6.1–6.6.
+
+**Delimitação pedagógica:** esta é uma disciplina de mineração de dados, não uma disciplina especializada de aprendizado de máquina. Os métodos serão apresentados pela intuição, pelo tipo de padrão que capturam, pela aplicação a dados e pela interpretação crítica dos resultados. Demonstrações matemáticas extensas, otimização de hiperparâmetros e comparação exaustiva de arquiteturas ficam fora do escopo.
 
 **Objetivos de aprendizagem**
 
-- formular problemas supervisionados;
-- preparar partições de treino, validação e teste;
-- explicar e aplicar Naive Bayes, k-NN e árvores de decisão;
-- ajustar regressão linear simples e múltipla;
-- selecionar métricas adequadas e comparar modelos de modo confiável.
+- distinguir classificação de regressão e formular problemas supervisionados;
+- explicar por que treino e teste devem permanecer separados e reconhecer vazamento;
+- interpretar matriz de confusão e selecionar métricas conforme o custo dos erros;
+- explicar intuitivamente e aplicar Naive Bayes, k-NN e árvores de decisão;
+- interpretar regressão linear simples e múltipla por previsões, coeficientes e resíduos;
+- comparar resultados com uma referência simples e comunicar limitações sem atribuir causalidade.
 
 **Notebooks previstos**
 
 1. `05_01_processo_e_avaliacao_de_classificacao.ipynb`
-   - fluxo supervisionado e baseline;
-   - matriz de confusão, acurácia, precisão, revocação, F1, ROC e AUC;
-   - validação cruzada, desbalanceamento e custo de erros.
+   - classificação versus regressão e fluxo supervisionado;
+   - treino, teste, *baseline* e vazamento de dados;
+   - matriz de confusão, acurácia, precisão, revocação e F1;
+   - desbalanceamento, limiar e custo dos erros;
+   - introdução intuitiva a ROC e AUC, sem aprofundamento matemático.
 2. `05_02_classificadores_bayesianos_e_knn.ipynb`
-   - Teorema de Bayes e hipótese de independência;
-   - exemplo manual de Naive Bayes;
-   - k-NN, métricas de distância, escala e escolha de _k_;
-   - comparação experimental.
+   - intuição do Teorema de Bayes e da hipótese de independência;
+   - exemplo pequeno e interpretável de Naive Bayes;
+   - classificação por vizinhança, escala e escolha de $k$;
+   - comparação das perguntas e limitações dos dois métodos.
 3. `05_03_arvores_de_decisao.ipynb`
-   - entropia, ganho de informação e índice Gini;
-   - construção manual de uma divisão;
-   - treinamento, visualização, poda e importância de atributos;
-   - sobreajuste e interpretabilidade.
+   - intuição de divisões sucessivas e impureza;
+   - leitura de uma árvore como regras `SE–ENTÃO`;
+   - profundidade, poda, sobreajuste e interpretabilidade;
+   - importância de atributos como pista descritiva, não efeito causal.
 4. `05_04_regressao_linear.ipynb`
-   - regressão simples e múltipla;
-   - mínimos quadrados, resíduos e pressupostos;
-   - MAE, MSE, RMSE e coeficiente de determinação;
-   - diagnóstico e interpretação cautelosa dos coeficientes.
+   - diferença entre alvo categórico e alvo numérico;
+   - intuição da reta ou superfície de regressão e dos resíduos;
+   - regressão simples e múltipla com exemplos pequenos;
+   - MAE, RMSE e coeficiente de determinação;
+   - interpretação cautelosa de coeficientes, extrapolação e associação.
 
-**Atividade integradora:** comparar pelo menos três classificadores sob o mesmo protocolo e desenvolver uma análise de regressão com diagnóstico de resíduos.
+**Atividade integradora:** aplicar os três classificadores a um pequeno problema sob o mesmo protocolo, explicar por que produzem resultados diferentes e selecionar uma solução considerando métricas, custo dos erros e interpretabilidade; em seguida, construir uma regressão e interpretar previsões e resíduos.
 
 **Listas da unidade:** exercícios conceituais de formulação, cálculo, comparação e interpretação de modelos; múltipla escolha com gabarito comentado.
 
-**Critério de conclusão:** ausência de vazamento, sementes fixadas, protocolo comparável, métricas interpretadas e limitações explicitadas.
+**Critério de conclusão:** ausência de vazamento, sementes fixadas, comparação com *baseline*, métricas ligadas ao problema, métodos explicados intuitivamente e limitações explicitadas.
 
 ### Unidade VI — Análise de Grupos
 
