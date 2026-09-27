@@ -66,10 +66,12 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Questões de múltipla escolha](exercicios/unidade_05/multipla_escolha.md)
 7. Unidade VI — Análise de Grupos
    - [Fundamentos e k-means](notebooks/unidade_06/06_01_fundamentos_e_kmeans.ipynb)
-   - [Agrupamento hierárquico e DBSCAN](notebooks/unidade_06/06_02_agrupamento_hierarquico_e_dbscan.ipynb)
-   - [k-medoids e métodos baseados em grade](notebooks/unidade_06/06_03_kmedoids_e_metodos_baseados_em_grade.ipynb)
-   - [Modelos de mistura Gaussiana](notebooks/unidade_06/06_04_modelos_de_mistura_gaussiana.ipynb)
-   - [Avaliação de agrupamentos](notebooks/unidade_06/06_05_avaliacao_de_agrupamentos.ipynb)
+   - [Agrupamento hierárquico](notebooks/unidade_06/06_02_agrupamento_hierarquico.ipynb)
+   - [DBSCAN](notebooks/unidade_06/06_03_dbscan.ipynb)
+   - [k-medoids](notebooks/unidade_06/06_04_kmedoids.ipynb)
+   - [Métodos baseados em grade](notebooks/unidade_06/06_05_metodos_baseados_em_grade.ipynb)
+   - [Modelos de mistura Gaussiana](notebooks/unidade_06/06_06_modelos_de_mistura_gaussiana.ipynb)
+   - [Avaliação de agrupamentos](notebooks/unidade_06/06_07_avaliacao_de_agrupamentos.ipynb)
    - [Exercícios conceituais](exercicios/unidade_06/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_06/multipla_escolha.md)
 

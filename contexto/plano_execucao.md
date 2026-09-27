@@ -339,22 +339,29 @@ Antes da Unidade I:
    - função objetivo do k-means;
    - atribuição/atualização passo a passo;
    - inicialização, escala, escolha de _k_ e limitações.
-2. `06_02_agrupamento_hierarquico_e_dbscan.ipynb`
+2. `06_02_agrupamento_hierarquico.ipynb`
    - ligações simples, completa, média e Ward;
    - dendrogramas e cortes;
+   - interpretação da hierarquia e efeito da escolha de ligação.
+3. `06_03_dbscan.ipynb`
    - densidade, `eps`, `min_samples`, ruído e formas não convexas;
    - comparação visual e quantitativa.
-3. `06_03_kmedoids_e_metodos_baseados_em_grade.ipynb`
-   - medoides, função de custo e algoritmo PAM;
-   - robustez, representantes observados e métricas de dissimilaridade;
-   - quantização do espaço, células densas e conectividade;
-   - intuição de CLIQUE e STING, resolução e escalabilidade.
-4. `06_04_modelos_de_mistura_gaussiana.ipynb`
+4. `06_04_kmedoids.ipynb`
+   - medoide, função de custo e algoritmo PAM;
+   - robustez e representantes observados;
+   - métricas gerais de dissimilaridade;
+   - custo computacional e aproximações por amostragem.
+5. `06_05_metodos_baseados_em_grade.ipynb`
+   - quantização do espaço e densidade de células;
+   - conexão de células densas;
+   - intuição de CLIQUE e STING;
+   - resolução, fronteiras e escalabilidade.
+6. `06_06_modelos_de_mistura_gaussiana.ipynb`
    - componentes, pesos, médias, covariâncias e responsabilidades;
    - algoritmo EM e pertencimento probabilístico;
    - comparação com k-means e geometrias elípticas;
    - tipos de covariância, AIC, BIC, incerteza e limitações.
-5. `06_05_avaliacao_de_agrupamentos.ipynb`
+7. `06_07_avaliacao_de_agrupamentos.ipynb`
    - medidas internas e externas;
    - silhouette, Davies–Bouldin, Rand ajustado;
    - estabilidade, interpretação e perfil dos grupos;

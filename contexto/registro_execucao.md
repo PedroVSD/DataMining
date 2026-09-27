@@ -22,7 +22,7 @@ Estados permitidos:
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-26 | Quatro notebooks, listas, gabaritos e pareceres produzidos e validados |
-| Unidade VI — Análise de Grupos | Concluída | 100% | 2026-09-27 | Cinco notebooks, listas, gabaritos e pareceres produzidos e validados |
+| Unidade VI — Análise de Grupos | Concluída | 100% | 2026-09-27 | Sete notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
 
@@ -49,10 +49,12 @@ Estados permitidos:
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Concluída | Concluída | Aprovada | Concluída |
 | `05_04_regressao_linear.ipynb` | Regressão linear | Concluída | Concluída | Aprovada | Concluída |
 | `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Concluída | Concluída | Aprovada | Concluída |
-| `06_02_agrupamento_hierarquico_e_dbscan.ipynb` | Hierárquico e DBSCAN | Concluída | Concluída | Aprovada | Concluída |
-| `06_03_kmedoids_e_metodos_baseados_em_grade.ipynb` | k-medoids e métodos de grade | Concluída | Concluída | Aprovada | Concluída |
-| `06_04_modelos_de_mistura_gaussiana.ipynb` | Misturas Gaussianas e EM | Concluída | Concluída | Aprovada | Concluída |
-| `06_05_avaliacao_de_agrupamentos.ipynb` | Avaliação de grupos | Concluída | Concluída | Aprovada | Concluída |
+| `06_02_agrupamento_hierarquico.ipynb` | Agrupamento hierárquico | Concluída | Concluída | Aprovada | Concluída |
+| `06_03_dbscan.ipynb` | DBSCAN | Concluída | Concluída | Aprovada | Concluída |
+| `06_04_kmedoids.ipynb` | k-medoids e PAM | Concluída | Concluída | Aprovada | Concluída |
+| `06_05_metodos_baseados_em_grade.ipynb` | Métodos baseados em grade | Concluída | Concluída | Aprovada | Concluída |
+| `06_06_modelos_de_mistura_gaussiana.ipynb` | Misturas Gaussianas e EM | Concluída | Concluída | Aprovada | Concluída |
+| `06_07_avaliacao_de_agrupamentos.ipynb` | Avaliação de grupos | Concluída | Concluída | Aprovada | Concluída |
 | `07_01_conceitos_e_metodos_estatisticos.ipynb` | Outliers e estatística | Pendente | Pendente | Pendente | Pendente |
 | `07_02_proximidade_densidade_e_agrupamento.ipynb` | Métodos de detecção | Pendente | Pendente | Pendente | Pendente |
 
@@ -72,32 +74,13 @@ Estados permitidos:
 
 ### 2026-09-27
 
-- Ampliada a Unidade VI com o notebook `06_04_modelos_de_mistura_gaussiana.ipynb`, baseado nas seções 9.1.2 e 9.1.3 do livro-guia.
-- Explicados processo gerador, pesos, médias, covariâncias, responsabilidades e as etapas E e M, destacando pertencimento probabilístico e incerteza.
-- Comparados k-means e GMM em componentes elípticos sobrepostos; visualizadas covariâncias e as dez observações de maior ambiguidade.
-- Aplicados AIC e BIC a um a seis componentes; ambos preferiram dois no exemplo, sem tratar o critério como validação substantiva.
-- Criadas seis atividades `U06-NB04-*`, gabarito completo e oito arquivos de parecer; notebook executado com `uv` em 16 células, cinco de código, quatro figuras e nenhuma saída de erro.
-- Listas da Unidade VI ampliadas para 22 questões conceituais e 24 de múltipla escolha, com gabaritos e pareceres atualizados.
-- Ampliada a Unidade VI com o notebook `06_03_kmedoids_e_metodos_baseados_em_grade.ipynb`, baseado nas seções 8.2.1 e 8.4.3 do livro-guia.
-- Comparados média e medoide, explicado o PAM e demonstrada uma busca exaustiva didática com distância Manhattan e representantes observados.
-- Implementado exemplo autoral de grade com quantização, contagem, células densas, conectividade e sensibilidade à resolução; apresentadas as ideias de CLIQUE e STING.
-- Criadas seis atividades `U06-NB03-*`, gabarito completo e oito arquivos de parecer; notebook executado com `uv` em 16 células, cinco de código, quatro figuras e nenhuma saída de erro.
-- Listas da Unidade VI foram ampliadas nessa etapa para 20 questões conceituais e 20 de múltipla escolha.
-- Produzido o notebook `06_05_avaliacao_de_agrupamentos.ipynb`, baseado na seção 8.5 do livro-guia, posicionado ao final da sequência reorganizada da Unidade VI.
-- Diferenciadas tendência, avaliação interna, avaliação externa, estabilidade e utilidade; detalhados silhouette, Davies–Bouldin e Rand ajustado.
-- Demonstrada estabilidade entre execuções: ARI médio 1,000 em quatro grupos separados e 0,761 em uma nuvem sem quatro grupos claros.
-- Comparados k-means, Ward e DBSCAN no conjunto Wine. O DBSCAN obteve melhores índices internos entre não ruídos, mas cobriu apenas 69,1%; k-means obteve cobertura total e ARI externo 0,897.
-- Criados perfis padronizados, checklist de seleção responsável, seis atividades `U06-NB05-*` e gabarito separado completo.
-- Notebook 06.05 executado com `uv`: 20 células, seis de código, quatro figuras, identificadores únicos e nenhuma saída de erro; sete pareceres e consolidação aprovados.
-- Criadas as listas conceitual e de múltipla escolha da Unidade VI em Markdown, posteriormente ampliadas com os métodos complementares, além dos gabaritos completos e pareceres de revisão.
-- Unidade VI marcada como concluída após validação de notebooks, exercícios, gabaritos, identificadores e documentação.
-- Produzido o notebook `06_02_agrupamento_hierarquico_e_dbscan.ipynb`, baseado nas seções 8.3 e 8.4.1 do livro-guia.
-- Explicadas as estratégias aglomerativa e divisiva, as ligações simples, completa, média e Ward, além da leitura e do corte de dendrogramas.
-- Construído exemplo de Ward cujo corte na altura 2,0 recupera os grupos `{A, B, C}`, `{D, E}` e `{F, G, H}`.
-- Explicados vizinhança, pontos centrais, borda e ruído no DBSCAN, com demonstração visual e tabela de classificação dos objetos.
-- Incluídos gráfico de distância ao quinto vizinho, análise de sensibilidade a `eps` e comparação controlada entre k-means, Ward e DBSCAN em formas não convexas.
-- Criadas cinco atividades `U06-NB02-*` e gabarito separado com cálculos completos, interpretação e critérios de correção.
-- Notebook 06.02 executado com `uv`: 21 células, oito de código, sete figuras, identificadores únicos e nenhuma saída de erro; sete pareceres e consolidação aprovados.
+- Reorganizada a Unidade VI em sete notebooks, mantendo a avaliação como o último material.
+- Separado o agrupamento hierárquico no notebook `06_02_agrupamento_hierarquico.ipynb`, com quatro ligações, dendrogramas, corte e Ward; execução com uv em 14 células, quatro de código, três figuras e nenhuma saída de erro.
+- Criado o notebook independente `06_03_dbscan.ipynb`, com tipos de ponto, parâmetros, distância ao k-ésimo vizinho, sensibilidade e comparação em formas não convexas; execução com uv em 14 células, cinco de código, quatro figuras e nenhuma saída de erro.
+- Renumerados k-medoids, métodos de grade, GMM e avaliação para 06.04 a 06.07, incluindo identificadores de células, atividades, gabaritos e pareceres.
+- Mantidos gabaritos separados e completos para as três atividades de cada novo notebook.
+- As listas da Unidade VI permanecem com 22 questões conceituais e 24 de múltipla escolha, cobrindo agrupamento hierárquico e DBSCAN.
+- Unidade VI mantida como concluída após validação de notebooks, exercícios, gabaritos, identificadores e documentação.
 - Iniciada a Unidade VI com o notebook `06_01_fundamentos_e_kmeans.ipynb`, baseado nas seções 8.1 e 8.2 do livro-guia.
 - Diferenciados agrupamento e classificação, enfatizando que unidade, atributos, escala e distância constroem a noção de grupo.
 - Implementada uma iteração manual do k-means com distâncias, atribuição, atualização de centroides e redução da SSE de 4,220 para 1,907.
