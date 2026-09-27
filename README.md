@@ -59,6 +59,7 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Questões de múltipla escolha](exercicios/unidade_04/multipla_escolha.md)
 6. Unidade V — Classificação e Regressão
    - [Processo e avaliação de classificação](notebooks/unidade_05/05_01_processo_e_avaliacao_de_classificacao.ipynb)
+   - [Classificadores bayesianos e k-NN](notebooks/unidade_05/05_02_classificadores_bayesianos_e_knn.ipynb)
 
 Os gabaritos ficam exclusivamente em `gabaritos/`, separados do material do estudante. Toda questão das listas e dos notebooks deve possuir resposta associada nessa pasta.
 

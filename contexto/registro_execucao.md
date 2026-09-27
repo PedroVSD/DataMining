@@ -21,7 +21,7 @@ Estados permitidos:
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
-| Unidade V — Classificação e Regressão | Em andamento | 25% | 2026-09-26 | Escopo ajustado ao olhar de mineração de dados; notebook 05.01 produzido e validado |
+| Unidade V — Classificação e Regressão | Em andamento | 50% | 2026-09-26 | Notebooks 05.01 e 05.02 produzidos, revisados e validados |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
@@ -45,7 +45,7 @@ Estados permitidos:
 | `04_04_padroes_sequenciais.ipynb` | Padrões sequenciais | Concluída | Concluída | Aprovada | Concluída |
 | `04_05_avaliacao_responsavel_de_regras.ipynb` | Avaliação responsável de regras | Concluída | Concluída | Aprovada | Concluída |
 | `05_01_processo_e_avaliacao_de_classificacao.ipynb` | Processo e métricas | Concluída | Concluída | Aprovada | Concluída |
-| `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Pendente | Pendente | Pendente | Pendente |
+| `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Concluída | Concluída | Aprovada | Concluída |
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Pendente | Pendente | Pendente | Pendente |
 | `05_04_regressao_linear.ipynb` | Regressão linear | Pendente | Pendente | Pendente | Pendente |
 | `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Pendente | Pendente | Pendente | Pendente |
@@ -70,6 +70,12 @@ Estados permitidos:
 
 ### 2026-09-26
 
+- Produzido o notebook `05_02_classificadores_bayesianos_e_knn.ipynb`, baseado nas seções 6.3 e 6.4 do livro-guia.
+- Desenvolvido exemplo manual de Naive Bayes com probabilidades prévias, verossimilhanças, independência condicional, suavização de Laplace, escores e posterior normalizada.
+- Criada comparação visual autoral do k-NN antes e depois da padronização, demonstrando a mudança dos três vizinhos e da classe prevista.
+- Explicado intuitivamente o efeito de $k$, da distância, da escala, de atributos irrelevantes e do custo de previsão.
+- Criadas quatro atividades `U05-NB02-*` e gabarito separado com soluções completas, cálculos e rubricas.
+- Notebook 05.02 executado com `uv`: 21 células, seis de código, uma figura, identificadores únicos e nenhuma saída de erro.
 - Ampliada a Unidade V em `resumo_disciplina.md` com formulação supervisionada, treino/teste, *baseline*, vazamento, matriz de confusão, custos dos erros e avaliação de regressão.
 - Delimitado no plano que a unidade apresenta intuição, aplicação e interpretação dos métodos sob a perspectiva de mineração de dados, sem aprofundamento próprio de uma disciplina especializada de aprendizado de máquina.
 - Produzido o notebook `05_01_processo_e_avaliacao_de_classificacao.ipynb`, baseado nas seções 6.1 e 6.6 de Han, Pei e Tong.
