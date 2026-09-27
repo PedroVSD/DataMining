@@ -22,7 +22,7 @@ Estados permitidos:
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-26 | Quatro notebooks, listas, gabaritos e pareceres produzidos e validados |
-| Unidade VI — Análise de Grupos | Em andamento | 33% | 2026-09-27 | Notebook 06.01 produzido, revisado e validado |
+| Unidade VI — Análise de Grupos | Em andamento | 67% | 2026-09-27 | Notebooks 06.01 e 06.02 produzidos, revisados e validados |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
 
@@ -49,7 +49,7 @@ Estados permitidos:
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Concluída | Concluída | Aprovada | Concluída |
 | `05_04_regressao_linear.ipynb` | Regressão linear | Concluída | Concluída | Aprovada | Concluída |
 | `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Concluída | Concluída | Aprovada | Concluída |
-| `06_02_agrupamento_hierarquico_e_dbscan.ipynb` | Hierárquico e DBSCAN | Pendente | Pendente | Pendente | Pendente |
+| `06_02_agrupamento_hierarquico_e_dbscan.ipynb` | Hierárquico e DBSCAN | Concluída | Concluída | Aprovada | Concluída |
 | `06_03_avaliacao_de_agrupamentos.ipynb` | Avaliação de grupos | Pendente | Pendente | Pendente | Pendente |
 | `07_01_conceitos_e_metodos_estatisticos.ipynb` | Outliers e estatística | Pendente | Pendente | Pendente | Pendente |
 | `07_02_proximidade_densidade_e_agrupamento.ipynb` | Métodos de detecção | Pendente | Pendente | Pendente | Pendente |
@@ -70,6 +70,13 @@ Estados permitidos:
 
 ### 2026-09-27
 
+- Produzido o notebook `06_02_agrupamento_hierarquico_e_dbscan.ipynb`, baseado nas seções 8.3 e 8.4.1 do livro-guia.
+- Explicadas as estratégias aglomerativa e divisiva, as ligações simples, completa, média e Ward, além da leitura e do corte de dendrogramas.
+- Construído exemplo de Ward cujo corte na altura 2,0 recupera os grupos `{A, B, C}`, `{D, E}` e `{F, G, H}`.
+- Explicados vizinhança, pontos centrais, borda e ruído no DBSCAN, com demonstração visual e tabela de classificação dos objetos.
+- Incluídos gráfico de distância ao quinto vizinho, análise de sensibilidade a `eps` e comparação controlada entre k-means, Ward e DBSCAN em formas não convexas.
+- Criadas cinco atividades `U06-NB02-*` e gabarito separado com cálculos completos, interpretação e critérios de correção.
+- Notebook 06.02 executado com `uv`: 21 células, oito de código, sete figuras, identificadores únicos e nenhuma saída de erro; sete pareceres e consolidação aprovados.
 - Iniciada a Unidade VI com o notebook `06_01_fundamentos_e_kmeans.ipynb`, baseado nas seções 8.1 e 8.2 do livro-guia.
 - Diferenciados agrupamento e classificação, enfatizando que unidade, atributos, escala e distância constroem a noção de grupo.
 - Implementada uma iteração manual do k-means com distâncias, atribuição, atualização de centroides e redução da SSE de 4,220 para 1,907.
