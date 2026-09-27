@@ -2,4 +2,4 @@
 
 **Decisão:** Aprovado — 2026-09-27
 
-O material oferece intuição visual, formalização suficiente e cálculo manual compatível com uma disciplina introdutória de mineração de dados. Evita aprofundamento algorítmico desnecessário, mas exige justificativa para ligação e corte.
+O material combina intuição, exemplo e formalização compatíveis com uma disciplina introdutória de mineração de dados. A estratégia divisiva é explicada com profundidade suficiente para comparação, enquanto a prática permanece concentrada no método aglomerativo. O estudante deve justificar direção, critério de ligação ou divisão e condição de parada.

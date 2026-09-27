@@ -74,6 +74,7 @@ Estados permitidos:
 
 ### 2026-09-27
 
+- Ampliado o notebook `06_02_agrupamento_hierarquico.ipynb` com explicação passo a passo da estratégia divisiva (top-down), DIANA, k-means bissector, condições de parada, exemplo e comparação com a estratégia aglomerativa; nova execução com uv em 15 células, três figuras e nenhuma saída de erro.
 - Reorganizada a Unidade VI em sete notebooks, mantendo a avaliação como o último material.
 - Separado o agrupamento hierárquico no notebook `06_02_agrupamento_hierarquico.ipynb`, com quatro ligações, dendrogramas, corte e Ward; execução com uv em 14 células, quatro de código, três figuras e nenhuma saída de erro.
 - Criado o notebook independente `06_03_dbscan.ipynb`, com tipos de ponto, parâmetros, distância ao k-ésimo vizinho, sensibilidade e comparação em formas não convexas; execução com uv em 14 células, cinco de código, quatro figuras e nenhuma saída de erro.

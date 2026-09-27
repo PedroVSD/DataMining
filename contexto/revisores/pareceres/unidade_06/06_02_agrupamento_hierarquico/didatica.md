@@ -2,4 +2,4 @@
 
 **Decisão:** Aprovado — 2026-09-27
 
-A sequência parte da ideia de fusões sucessivas, compara visualmente as ligações e ensina a ler o dendrograma antes de efetuar um corte. O exemplo nomeado permite acompanhar as folhas e verificar os grupos {A, B, C}, {D, E} e {F, G, H}. As três atividades retomam leitura, cálculo e decisão.
+A sequência contrapõe primeiro as perguntas centrais de bottom-up e top-down. A abordagem divisiva é apresentada passo a passo, com DIANA, k-means bissector, exemplo de três grupos e comparação direta. Depois, o material aprofunda fusões, ligações e leitura do dendrograma. O exemplo nomeado permite verificar os grupos {A, B, C}, {D, E} e {F, G, H}; as três atividades retomam leitura, cálculo e decisão.

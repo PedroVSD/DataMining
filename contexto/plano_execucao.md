@@ -340,6 +340,7 @@ Antes da Unidade I:
    - atribuição/atualização passo a passo;
    - inicialização, escala, escolha de _k_ e limitações.
 2. `06_02_agrupamento_hierarquico.ipynb`
+   - estratégias aglomerativa (bottom-up) e divisiva (top-down);
    - ligações simples, completa, média e Ward;
    - dendrogramas e cortes;
    - interpretação da hierarquia e efeito da escolha de ligação.
