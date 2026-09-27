@@ -64,6 +64,8 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Regressão linear](notebooks/unidade_05/05_04_regressao_linear.ipynb)
    - [Exercícios conceituais](exercicios/unidade_05/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_05/multipla_escolha.md)
+7. Unidade VI — Análise de Grupos
+   - [Fundamentos e k-means](notebooks/unidade_06/06_01_fundamentos_e_kmeans.ipynb)
 
 Os gabaritos ficam exclusivamente em `gabaritos/`, separados do material do estudante. Toda questão das listas e dos notebooks deve possuir resposta associada nessa pasta.
 

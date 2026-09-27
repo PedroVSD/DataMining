@@ -22,7 +22,7 @@ Estados permitidos:
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-26 | Quatro notebooks, listas, gabaritos e pareceres produzidos e validados |
-| Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
+| Unidade VI — Análise de Grupos | Em andamento | 33% | 2026-09-27 | Notebook 06.01 produzido, revisado e validado |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
 
@@ -48,7 +48,7 @@ Estados permitidos:
 | `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Concluída | Concluída | Aprovada | Concluída |
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Concluída | Concluída | Aprovada | Concluída |
 | `05_04_regressao_linear.ipynb` | Regressão linear | Concluída | Concluída | Aprovada | Concluída |
-| `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Pendente | Pendente | Pendente | Pendente |
+| `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Concluída | Concluída | Aprovada | Concluída |
 | `06_02_agrupamento_hierarquico_e_dbscan.ipynb` | Hierárquico e DBSCAN | Pendente | Pendente | Pendente | Pendente |
 | `06_03_avaliacao_de_agrupamentos.ipynb` | Avaliação de grupos | Pendente | Pendente | Pendente | Pendente |
 | `07_01_conceitos_e_metodos_estatisticos.ipynb` | Outliers e estatística | Pendente | Pendente | Pendente | Pendente |
@@ -67,6 +67,16 @@ Estados permitidos:
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
 ## Histórico
+
+### 2026-09-27
+
+- Iniciada a Unidade VI com o notebook `06_01_fundamentos_e_kmeans.ipynb`, baseado nas seções 8.1 e 8.2 do livro-guia.
+- Diferenciados agrupamento e classificação, enfatizando que unidade, atributos, escala e distância constroem a noção de grupo.
+- Implementada uma iteração manual do k-means com distâncias, atribuição, atualização de centroides e redução da SSE de 4,220 para 1,907.
+- Criada comparação visual em que a escala bruta separa clientes por gasto e a padronização separa frequência, tornando explícitas duas perguntas analíticas distintas.
+- Incluídos gráfico do cotovelo, discussão de inicialização e exemplo de duas luas que evidencia a limitação do k-means para formas não convexas.
+- Criadas cinco atividades `U06-NB01-*` e gabarito separado com cálculos completos, interpretação e rubricas.
+- Notebook executado com `uv`: 23 células, oito de código, quatro figuras, identificadores únicos e nenhuma saída de erro.
 
 ### 2026-09-26
 
