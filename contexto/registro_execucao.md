@@ -21,7 +21,7 @@ Estados permitidos:
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
-| Unidade V — Classificação e Regressão | Em andamento | 75% | 2026-09-26 | Notebooks 05.01 a 05.03 produzidos, revisados e validados |
+| Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-26 | Quatro notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
@@ -47,7 +47,7 @@ Estados permitidos:
 | `05_01_processo_e_avaliacao_de_classificacao.ipynb` | Processo e métricas | Concluída | Concluída | Aprovada | Concluída |
 | `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Concluída | Concluída | Aprovada | Concluída |
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Concluída | Concluída | Aprovada | Concluída |
-| `05_04_regressao_linear.ipynb` | Regressão linear | Pendente | Pendente | Pendente | Pendente |
+| `05_04_regressao_linear.ipynb` | Regressão linear | Concluída | Concluída | Aprovada | Concluída |
 | `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Pendente | Pendente | Pendente | Pendente |
 | `06_02_agrupamento_hierarquico_e_dbscan.ipynb` | Hierárquico e DBSCAN | Pendente | Pendente | Pendente | Pendente |
 | `06_03_avaliacao_de_agrupamentos.ipynb` | Avaliação de grupos | Pendente | Pendente | Pendente | Pendente |
@@ -62,7 +62,7 @@ Estados permitidos:
 | II — Análise de Dados | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | III — Pré-processamento | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | IV — Mineração de Padrões | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
-| V — Classificação e Regressão | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
+| V — Classificação e Regressão | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | VI — Análise de Grupos | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 | VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
 
@@ -70,6 +70,16 @@ Estados permitidos:
 
 ### 2026-09-26
 
+- Produzido o notebook `05_04_regressao_linear.ipynb`, baseado na seção 6.5.1 do livro-guia, concluindo a sequência principal da Unidade V.
+- Apresentadas regressões simples e múltipla pela intuição da reta e da superfície, com resíduos, mínimos quadrados, coeficientes e unidades.
+- Comparados *baseline*, regressão simples e múltipla: a múltipla obteve MAE 26,386, RMSE 33,345 e $R^2$ 0,954 no teste sintético.
+- Incluídas duas figuras computacionais, diagnóstico de resíduos, discussão de colinearidade, extrapolação e interpretação não causal.
+- Criadas cinco atividades `U05-NB04-*` e gabarito separado com cálculos completos e rubricas.
+- Notebook 05.04 executado com `uv`: 22 células, sete de código, duas figuras, identificadores únicos e nenhuma saída de erro.
+- Criadas a lista conceitual e a lista de múltipla escolha da Unidade V, ambas em Markdown, com 16 questões cada.
+- Produzidos gabaritos completos: respostas conceituais desenvolvidas, múltipla escolha comentada com distribuição equilibrada e correspondência integral com as atividades dos quatro notebooks.
+- Emitidos sete pareceres e consolidação para o notebook 05.04, além dos pareceres de alinhamento, exatidão, formatação e consolidação das listas.
+- Unidade V marcada como concluída após validação de notebooks, exercícios, gabaritos, identificadores e documentação.
 - Produzido o notebook `05_03_arvores_de_decisao.ipynb`, baseado na seção 6.2 do livro-guia.
 - Explicadas a anatomia da árvore, construção gulosa, regras `SE–ENTÃO`, índice Gini, pré-poda, pós-poda e importância de atributos.
 - Criado exemplo manual com 12 clientes: Gini da raiz 0,4861, impureza após a divisão 0,2762 e redução 0,2099.
