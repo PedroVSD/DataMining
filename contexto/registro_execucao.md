@@ -21,7 +21,7 @@ Estados permitidos:
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
-| Unidade V — Classificação e Regressão | Em andamento | 50% | 2026-09-26 | Notebooks 05.01 e 05.02 produzidos, revisados e validados |
+| Unidade V — Classificação e Regressão | Em andamento | 75% | 2026-09-26 | Notebooks 05.01 a 05.03 produzidos, revisados e validados |
 | Unidade VI — Análise de Grupos | Não iniciada | 0% | — | — |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
@@ -46,7 +46,7 @@ Estados permitidos:
 | `04_05_avaliacao_responsavel_de_regras.ipynb` | Avaliação responsável de regras | Concluída | Concluída | Aprovada | Concluída |
 | `05_01_processo_e_avaliacao_de_classificacao.ipynb` | Processo e métricas | Concluída | Concluída | Aprovada | Concluída |
 | `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Concluída | Concluída | Aprovada | Concluída |
-| `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Pendente | Pendente | Pendente | Pendente |
+| `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Concluída | Concluída | Aprovada | Concluída |
 | `05_04_regressao_linear.ipynb` | Regressão linear | Pendente | Pendente | Pendente | Pendente |
 | `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Pendente | Pendente | Pendente | Pendente |
 | `06_02_agrupamento_hierarquico_e_dbscan.ipynb` | Hierárquico e DBSCAN | Pendente | Pendente | Pendente | Pendente |
@@ -70,6 +70,13 @@ Estados permitidos:
 
 ### 2026-09-26
 
+- Produzido o notebook `05_03_arvores_de_decisao.ipynb`, baseado na seção 6.2 do livro-guia.
+- Explicadas a anatomia da árvore, construção gulosa, regras `SE–ENTÃO`, índice Gini, pré-poda, pós-poda e importância de atributos.
+- Criado exemplo manual com 12 clientes: Gini da raiz 0,4861, impureza após a divisão 0,2762 e redução 0,2099.
+- Incluídas três ilustrações computacionais: árvore rasa, curvas de desempenho por profundidade e importância por redução de impureza.
+- Demonstrado sobreajuste com árvore sem limite: 108 folhas, acurácia 1,000 no treino e 0,750 no teste.
+- Criadas quatro atividades `U05-NB03-*` e gabarito separado com cálculos, leitura de caminhos, comparação de complexidade e rubricas.
+- Notebook 05.03 executado com `uv`: 25 células, oito de código, três figuras, identificadores únicos e nenhuma saída de erro.
 - Produzido o notebook `05_02_classificadores_bayesianos_e_knn.ipynb`, baseado nas seções 6.3 e 6.4 do livro-guia.
 - Desenvolvido exemplo manual de Naive Bayes com probabilidades prévias, verossimilhanças, independência condicional, suavização de Laplace, escores e posterior normalizada.
 - Criada comparação visual autoral do k-NN antes e depois da padronização, demonstrando a mudança dos três vizinhos e da classe prevista.
