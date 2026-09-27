@@ -344,21 +344,21 @@ Antes da Unidade I:
    - dendrogramas e cortes;
    - densidade, `eps`, `min_samples`, ruído e formas não convexas;
    - comparação visual e quantitativa.
-3. `06_03_avaliacao_de_agrupamentos.ipynb`
-   - medidas internas e externas;
-   - silhouette, Davies–Bouldin, Rand ajustado;
-   - estabilidade, interpretação e perfil dos grupos;
-   - seleção responsável de uma solução.
-4. `06_04_kmedoids_e_metodos_baseados_em_grade.ipynb`
+3. `06_03_kmedoids_e_metodos_baseados_em_grade.ipynb`
    - medoides, função de custo e algoritmo PAM;
    - robustez, representantes observados e métricas de dissimilaridade;
    - quantização do espaço, células densas e conectividade;
    - intuição de CLIQUE e STING, resolução e escalabilidade.
-5. `06_05_modelos_de_mistura_gaussiana.ipynb`
+4. `06_04_modelos_de_mistura_gaussiana.ipynb`
    - componentes, pesos, médias, covariâncias e responsabilidades;
    - algoritmo EM e pertencimento probabilístico;
    - comparação com k-means e geometrias elípticas;
    - tipos de covariância, AIC, BIC, incerteza e limitações.
+5. `06_05_avaliacao_de_agrupamentos.ipynb`
+   - medidas internas e externas;
+   - silhouette, Davies–Bouldin, Rand ajustado;
+   - estabilidade, interpretação e perfil dos grupos;
+   - comparação e seleção responsável das soluções estudadas na unidade.
 
 **Atividade integradora:** comparar famílias particionais, hierárquicas, probabilísticas, de densidade e de grade em dados sintéticos e reais, justificando pré-processamento, métrica e escolha final.
 
