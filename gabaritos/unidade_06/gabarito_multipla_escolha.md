@@ -6,6 +6,7 @@
 | 2 | D | 6 | D | 10 | D | 14 | D |
 | 3 | A | 7 | A | 11 | A | 15 | A |
 | 4 | C | 8 | C | 12 | C | 16 | C |
+| 17 | B | 18 | D | 19 | A | 20 | C |
 
 ## Justificativas
 
@@ -73,9 +74,24 @@ A alternativa A descreve comportamento observável, período e comparação, sem
 
 Qualidade interna é apenas uma dimensão. Instabilidade e falta de utilidade impedem uma recomendação defensável e contradizem a ideia de grupos naturais garantidos.
 
+### U06-M17 — B
+
+O medoide pertence ao conjunto observado e minimiza dissimilaridades. A média pode não ser observada e não é definida para todo tipo de objeto.
+
+### U06-M18 — D
+
+Depois de resumir a grade, muitas operações dependem do número de células, e não de comparações repetidas entre todos os objetos. Resolução e limiar continuam necessários.
+
+### U06-M19 — A
+
+CLIQUE encontra unidades densas em subconjuntos das dimensões e usa monotonicidade para restringir a busca. Não é um método supervisionado nem centrado em médias.
+
+### U06-M20 — C
+
+Células grandes agregam áreas extensas, podendo preencher separações e impor limites horizontais ou verticais grosseiros. O limiar continua influente.
+
 ## Distribuição das respostas
 
 | A | B | C | D |
 |---:|---:|---:|---:|
-| 4 | 4 | 4 | 4 |
-
+| 5 | 5 | 5 | 5 |

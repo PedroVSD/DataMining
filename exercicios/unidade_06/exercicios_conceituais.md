@@ -1,8 +1,11 @@
 # Unidade VI — Exercícios conceituais
 
-**Tema:** fundamentos, k-means, agrupamento hierárquico, DBSCAN e avaliação de grupos  
-**Objetivos avaliados:** formular uma análise de grupos; calcular e interpretar etapas dos algoritmos; comparar geometrias e parâmetros; avaliar qualidade, estabilidade e utilidade; comunicar segmentações de forma responsável.  
-**Tempo estimado:** 150 minutos  
+**Tema:** fundamentos, k-means, k-medoids, agrupamento hierárquico, DBSCAN, grade e avaliação de grupos
+
+**Objetivos avaliados:** formular uma análise de grupos; calcular e interpretar etapas dos algoritmos; comparar geometrias, representações e parâmetros; avaliar qualidade, estabilidade e utilidade; comunicar segmentações de forma responsável.
+
+**Tempo estimado:** 180 minutos
+
 **Instruções:** justifique as respostas, apresente cálculos e declare as escolhas de distância, escala e parâmetros. Numerações de grupos são arbitrárias.
 
 ## Fundamentos e k-means
@@ -43,7 +46,14 @@
 
 16. **U06-C16.** Uma segmentação de estudantes será usada para oferecer apoio acadêmico. Elabore um protocolo de seleção responsável que inclua finalidade, atributos, avaliação, perfis, linguagem, impacto, possibilidade de revisão e monitoramento.
 
+## Métodos complementares
+
+17. **U06-C17.** Para os valores `[1, 2, 10]`, calcule a média e o medoide pela soma das distâncias absolutas. Explique qual representante é um objeto observado e por que o medoide tende a ser menos afetado pelo extremo.
+
+18. **U06-C18.** Explique as quatro etapas de um agrupamento por grade. Compare células de largura 0,1 e 2,0 quanto a número de células, fragmentação, fusão de regiões e custo. Relacione CLIQUE e STING a essa ideia.
+
+19. **U06-C19.** Uma organização quer aplicar PAM diretamente a um milhão de registros para obter dez representantes observados. Explique por que a busca de trocas pode ser cara, proponha uma estratégia baseada em amostragem e indique como verificar se os representantes generalizam para toda a base.
+
 ## Desafio opcional
 
-17. **U06-C17.** Compare duas estratégias para avaliar DBSCAN: calcular métricas internas tratando todo ruído como um único grupo ou excluir o ruído e informar cobertura. Discuta problemas das duas estratégias e proponha uma forma transparente de relatar os resultados.
-
+20. **U06-C20.** Compare duas estratégias para avaliar DBSCAN: calcular métricas internas tratando todo ruído como um único grupo ou excluir o ruído e informar cobertura. Discuta problemas das duas estratégias e proponha uma forma transparente de relatar os resultados.

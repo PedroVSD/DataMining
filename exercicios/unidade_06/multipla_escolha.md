@@ -146,3 +146,38 @@ Uma solução apresenta ótimas métricas internas, mas é instável e não apoi
 - [ ] **C.** não há evidência suficiente para recomendá-la como solução útil
 - [ ] **D.** os grupos representam necessariamente categorias naturais
 
+## U06-M17
+
+Um medoide é:
+
+- [ ] **A.** sempre a média numérica do grupo
+- [ ] **B.** um objeto observado que minimiza a soma de dissimilaridades no grupo
+- [ ] **C.** qualquer ponto marcado como ruído
+- [ ] **D.** o número de células densas
+
+## U06-M18
+
+A principal ideia de escalabilidade dos métodos baseados em grade é:
+
+- [ ] **A.** comparar novamente todos os pares em cada consulta
+- [ ] **B.** exigir que todos os atributos sejam categóricos
+- [ ] **C.** eliminar parâmetros de resolução
+- [ ] **D.** realizar operações sobre células resumidas em vez de somente sobre objetos individuais
+
+## U06-M19
+
+O CLIQUE diferencia-se por procurar:
+
+- [ ] **A.** células densas também em subespaços de atributos
+- [ ] **B.** apenas centroides Euclidianos
+- [ ] **C.** uma árvore supervisionada
+- [ ] **D.** exclusivamente grupos esféricos
+
+## U06-M20
+
+Uma grade excessivamente grossa tende a:
+
+- [ ] **A.** preservar todos os detalhes locais
+- [ ] **B.** criar necessariamente mais células vazias
+- [ ] **C.** fundir regiões distintas e produzir fronteiras grosseiras
+- [ ] **D.** tornar a escolha do limiar irrelevante

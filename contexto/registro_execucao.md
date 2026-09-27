@@ -22,7 +22,7 @@ Estados permitidos:
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-26 | Quatro notebooks, listas, gabaritos e pareceres produzidos e validados |
-| Unidade VI — Análise de Grupos | Concluída | 100% | 2026-09-27 | Três notebooks, listas, gabaritos e pareceres produzidos e validados |
+| Unidade VI — Análise de Grupos | Concluída | 100% | 2026-09-27 | Quatro notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
 
@@ -51,6 +51,7 @@ Estados permitidos:
 | `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Concluída | Concluída | Aprovada | Concluída |
 | `06_02_agrupamento_hierarquico_e_dbscan.ipynb` | Hierárquico e DBSCAN | Concluída | Concluída | Aprovada | Concluída |
 | `06_03_avaliacao_de_agrupamentos.ipynb` | Avaliação de grupos | Concluída | Concluída | Aprovada | Concluída |
+| `06_04_kmedoids_e_metodos_baseados_em_grade.ipynb` | k-medoids e métodos de grade | Concluída | Concluída | Aprovada | Concluída |
 | `07_01_conceitos_e_metodos_estatisticos.ipynb` | Outliers e estatística | Pendente | Pendente | Pendente | Pendente |
 | `07_02_proximidade_densidade_e_agrupamento.ipynb` | Métodos de detecção | Pendente | Pendente | Pendente | Pendente |
 
@@ -70,13 +71,18 @@ Estados permitidos:
 
 ### 2026-09-27
 
-- Produzido o notebook `06_03_avaliacao_de_agrupamentos.ipynb`, baseado na seção 8.5 do livro-guia, concluindo a sequência da Unidade VI.
+- Ampliada a Unidade VI com o notebook `06_04_kmedoids_e_metodos_baseados_em_grade.ipynb`, baseado nas seções 8.2.1 e 8.4.3 do livro-guia.
+- Comparados média e medoide, explicado o PAM e demonstrada uma busca exaustiva didática com distância Manhattan e representantes observados.
+- Implementado exemplo autoral de grade com quantização, contagem, células densas, conectividade e sensibilidade à resolução; apresentadas as ideias de CLIQUE e STING.
+- Criadas seis atividades `U06-NB04-*`, gabarito completo e oito arquivos de parecer; notebook executado com `uv` em 16 células, cinco de código, quatro figuras e nenhuma saída de erro.
+- Listas da Unidade VI ampliadas para 20 questões conceituais e 20 de múltipla escolha, com gabaritos e pareceres atualizados.
+- Produzido o notebook `06_03_avaliacao_de_agrupamentos.ipynb`, baseado na seção 8.5 do livro-guia, concluindo a sequência principal então prevista para a Unidade VI.
 - Diferenciadas tendência, avaliação interna, avaliação externa, estabilidade e utilidade; detalhados silhouette, Davies–Bouldin e Rand ajustado.
 - Demonstrada estabilidade entre execuções: ARI médio 1,000 em quatro grupos separados e 0,761 em uma nuvem sem quatro grupos claros.
 - Comparados k-means, Ward e DBSCAN no conjunto Wine. O DBSCAN obteve melhores índices internos entre não ruídos, mas cobriu apenas 69,1%; k-means obteve cobertura total e ARI externo 0,897.
 - Criados perfis padronizados, checklist de seleção responsável, seis atividades `U06-NB03-*` e gabarito separado completo.
 - Notebook 06.03 executado com `uv`: 20 células, seis de código, quatro figuras, identificadores únicos e nenhuma saída de erro; sete pareceres e consolidação aprovados.
-- Criadas as listas conceitual e de múltipla escolha da Unidade VI em Markdown, com 17 e 16 questões, respectivamente, além dos gabaritos completos e pareceres de revisão.
+- Criadas as listas conceitual e de múltipla escolha da Unidade VI em Markdown, posteriormente ampliadas para 20 questões cada, além dos gabaritos completos e pareceres de revisão.
 - Unidade VI marcada como concluída após validação de notebooks, exercícios, gabaritos, identificadores e documentação.
 - Produzido o notebook `06_02_agrupamento_hierarquico_e_dbscan.ipynb`, baseado nas seções 8.3 e 8.4.1 do livro-guia.
 - Explicadas as estratégias aglomerativa e divisiva, as ligações simples, completa, média e Ward, além da leitura e do corte de dendrogramas.

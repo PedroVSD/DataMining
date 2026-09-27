@@ -81,7 +81,7 @@ Ao final da disciplina, o aluno deve:
 - Funções de distância.
 - Preparação dos dados.
 - Categorias de métodos de agrupamento.
-- Algoritmos de clusterização.
+- Algoritmos de clusterização: k-means, k-medoids, hierárquicos, baseados em densidade e baseados em grade.
 
 ### Unidade VII — Detecção de *Outliers*
 

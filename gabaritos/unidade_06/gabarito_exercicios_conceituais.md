@@ -158,11 +158,32 @@ Um protocolo completo deve:
 
 Agrupamentos não diagnosticam causas e não substituem contato com o estudante.
 
-## U06-C17 — Desafio opcional
+## U06-C17
+
+A média é $(1+2+10)/3=13/3\approx4{,}33$. As somas de distâncias absolutas são 10 para o candidato 1, 9 para o candidato 2 e 17 para o candidato 10. Portanto, o medoide é 2.
+
+O medoide é obrigatoriamente um objeto observado; a média 4,33 não aparece no conjunto. O extremo 10 desloca a média para a direita, enquanto a minimização de distâncias absolutas mantém o medoide no valor central. Isso ilustra robustez, mas não garante que todo agrupamento por medoides seja imune a extremos.
+
+## U06-C18
+
+As etapas são: dividir dimensões em intervalos e formar células; contar ou resumir objetos por célula; marcar células densas segundo um limiar; conectar ou agregar células densas para formar grupos.
+
+Largura 0,1 produz muitas células, maior detalhe, custo de grade maior e risco de fragmentação ou baixa cobertura com limiar fixo. Largura 2,0 produz poucas células e processamento mais barato, mas pode fundir regiões, apagar vazios e impor contornos grosseiros. O alinhamento das fronteiras também pode alterar ambos os resultados.
+
+CLIQUE procura células densas em subespaços e usa monotonicidade para reduzir candidatos. STING organiza células e resumos estatísticos em uma hierarquia multirresolução, permitindo descer apenas em regiões relevantes.
+
+## U06-C19
+
+O PAM avalia trocas entre medoides e não medoides e recalcula efeitos sobre muitos objetos. Com um milhão de registros, tempo e memória tornam a execução direta muito mais cara que métodos centrados em médias ou aproximações.
+
+Uma estratégia é inspirada no CLARA: retirar várias amostras representativas, executar PAM em cada uma, obter conjuntos candidatos de medoides e medir o custo de cada conjunto na base completa ou em uma amostra de validação muito maior. Seleciona-se a solução com menor custo que também apresente estabilidade e cobertura dos estratos relevantes.
+
+Para verificar generalização, devem-se comparar custo médio e distribuição das distâncias ao medoide fora da amostra, tamanhos e perfis dos grupos, representação de regiões raras e estabilidade entre amostras. Amostragem estratificada ou orientada por regiões pode ser necessária para não perder pequenos grupos.
+
+## U06-C20 — Desafio opcional
 
 Tratar todo ruído como um único grupo faz parecer que objetos possivelmente dispersos formam uma classe coerente. Isso pode piorar ou distorcer silhouette e Davies–Bouldin, pois o rótulo `-1` significa “não atribuído a região densa”, não “mesmo grupo”.
 
 Excluir o ruído avalia apenas a parte mais fácil ou densa e pode inflar as métricas, sobretudo quando a exclusão é grande. Soluções com coberturas diferentes deixam de ser diretamente comparáveis.
 
 Uma comunicação transparente deve apresentar: parâmetros e métrica; número de grupos; quantidade e proporção de ruído; cobertura; métricas calculadas somente nos não ruídos com essa condição explícita; análise separada dos ruídos; sensibilidade a parâmetros próximos; e, quando útil, uma análise alternativa mostrando como conclusões mudam sob outra regra. Nenhum escore isolado deve ocultar a cobertura.
-

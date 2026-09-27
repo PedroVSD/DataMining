@@ -321,15 +321,15 @@ Antes da Unidade I:
 
 ### Unidade VI — Análise de Grupos
 
-**Carga prevista:** 10 horas  
+**Carga prevista:** 12 horas
 **Referência principal no livro:** Capítulo 8, seções 8.1–8.5; tópicos selecionados do Capítulo 9 se necessários.
 
 **Objetivos de aprendizagem**
 
 - explicar objetivos, requisitos e dificuldades do agrupamento;
 - preparar dados e escolher funções de distância;
-- comparar métodos particionais, hierárquicos e baseados em densidade;
-- aplicar k-means, agrupamento hierárquico e DBSCAN;
+- comparar métodos particionais, hierárquicos, baseados em densidade e baseados em grade;
+- aplicar k-means, k-medoids, agrupamento hierárquico e DBSCAN;
 - avaliar coesão, separação, estabilidade e utilidade dos grupos.
 
 **Notebooks previstos**
@@ -349,8 +349,13 @@ Antes da Unidade I:
    - silhouette, Davies–Bouldin, Rand ajustado;
    - estabilidade, interpretação e perfil dos grupos;
    - seleção responsável de uma solução.
+4. `06_04_kmedoids_e_metodos_baseados_em_grade.ipynb`
+   - medoides, função de custo e algoritmo PAM;
+   - robustez, representantes observados e métricas de dissimilaridade;
+   - quantização do espaço, células densas e conectividade;
+   - intuição de CLIQUE e STING, resolução e escalabilidade.
 
-**Atividade integradora:** comparar três famílias de algoritmos em dados sintéticos e reais, justificando pré-processamento, métrica e escolha final.
+**Atividade integradora:** comparar famílias particionais, hierárquicas, de densidade e de grade em dados sintéticos e reais, justificando pré-processamento, métrica e escolha final.
 
 **Listas da unidade:** exercícios conceituais sobre distâncias, algoritmos e avaliação; múltipla escolha com gabarito comentado.
 
