@@ -181,3 +181,39 @@ Uma grade excessivamente grossa tende a:
 - [ ] **B.** criar necessariamente mais células vazias
 - [ ] **C.** fundir regiões distintas e produzir fronteiras grosseiras
 - [ ] **D.** tornar a escolha do limiar irrelevante
+
+## U06-M21
+
+Em um GMM, a responsabilidade $r_{ij}$ representa:
+
+- [ ] **A.** a distância Euclidiana sem normalização
+- [ ] **B.** a probabilidade posterior de o componente $j$ explicar o objeto $i$
+- [ ] **C.** o número de componentes escolhido pelo BIC
+- [ ] **D.** uma classe observada usada no treinamento
+
+## U06-M22
+
+Na etapa M do algoritmo EM para GMM:
+
+- [ ] **A.** todos os objetos recebem probabilidade exatamente 0 ou 1
+- [ ] **B.** o número de atributos é reduzido
+- [ ] **C.** as responsabilidades são descartadas
+- [ ] **D.** pesos, médias e covariâncias são atualizados usando as responsabilidades
+
+## U06-M23
+
+Qual tipo de covariância permite que cada componente tenha uma elipse com orientação própria?
+
+- [ ] **A.** `full`
+- [ ] **B.** `spherical`
+- [ ] **C.** `tied` com matriz diagonal fixa
+- [ ] **D.** nenhuma, pois GMM produz apenas círculos
+
+## U06-M24
+
+Ao comparar GMMs pelo BIC, prefere-se inicialmente:
+
+- [ ] **A.** o maior BIC, independentemente do ajuste
+- [ ] **B.** sempre o modelo com mais componentes
+- [ ] **C.** o menor BIC entre os candidatos, seguido de outras validações
+- [ ] **D.** o modelo cujos rótulos têm números maiores

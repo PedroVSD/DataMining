@@ -321,15 +321,15 @@ Antes da Unidade I:
 
 ### Unidade VI — Análise de Grupos
 
-**Carga prevista:** 12 horas
+**Carga prevista:** 14 horas
 **Referência principal no livro:** Capítulo 8, seções 8.1–8.5; tópicos selecionados do Capítulo 9 se necessários.
 
 **Objetivos de aprendizagem**
 
 - explicar objetivos, requisitos e dificuldades do agrupamento;
 - preparar dados e escolher funções de distância;
-- comparar métodos particionais, hierárquicos, baseados em densidade e baseados em grade;
-- aplicar k-means, k-medoids, agrupamento hierárquico e DBSCAN;
+- comparar métodos particionais, hierárquicos, probabilísticos, baseados em densidade e baseados em grade;
+- aplicar k-means, k-medoids, agrupamento hierárquico, DBSCAN e misturas Gaussianas;
 - avaliar coesão, separação, estabilidade e utilidade dos grupos.
 
 **Notebooks previstos**
@@ -354,8 +354,13 @@ Antes da Unidade I:
    - robustez, representantes observados e métricas de dissimilaridade;
    - quantização do espaço, células densas e conectividade;
    - intuição de CLIQUE e STING, resolução e escalabilidade.
+5. `06_05_modelos_de_mistura_gaussiana.ipynb`
+   - componentes, pesos, médias, covariâncias e responsabilidades;
+   - algoritmo EM e pertencimento probabilístico;
+   - comparação com k-means e geometrias elípticas;
+   - tipos de covariância, AIC, BIC, incerteza e limitações.
 
-**Atividade integradora:** comparar famílias particionais, hierárquicas, de densidade e de grade em dados sintéticos e reais, justificando pré-processamento, métrica e escolha final.
+**Atividade integradora:** comparar famílias particionais, hierárquicas, probabilísticas, de densidade e de grade em dados sintéticos e reais, justificando pré-processamento, métrica e escolha final.
 
 **Listas da unidade:** exercícios conceituais sobre distâncias, algoritmos e avaliação; múltipla escolha com gabarito comentado.
 

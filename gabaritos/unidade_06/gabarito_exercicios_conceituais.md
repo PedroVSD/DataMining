@@ -180,7 +180,25 @@ Uma estratégia é inspirada no CLARA: retirar várias amostras representativas,
 
 Para verificar generalização, devem-se comparar custo médio e distribuição das distâncias ao medoide fora da amostra, tamanhos e perfis dos grupos, representação de regiões raras e estabilidade entre amostras. Amostragem estratificada ou orientada por regiões pode ser necessária para não perder pequenos grupos.
 
-## U06-C20 — Desafio opcional
+## U06-C20
+
+As contribuições são $0{,}7\cdot0{,}1=0{,}07$ e $0{,}3\cdot0{,}4=0{,}12$, cuja soma é 0,19. Portanto:
+
+$$P(C_1\mid x)=0{,}07/0{,}19\approx0{,}368,$$
+
+$$P(C_2\mid x)=0{,}12/0{,}19\approx0{,}632.$$
+
+A atribuição rígida escolheria o componente 2, mas a responsabilidade de 36,8% do primeiro indica ambiguidade relevante. A conclusão é condicional aos pesos, densidades e hipóteses do modelo.
+
+## U06-C21
+
+K-means representa cada grupo por um centroide e produz atribuições rígidas, com regiões favorecendo grupos compactos e aproximadamente esféricos. O GMM representa cada componente por peso, média e covariância e fornece responsabilidades, permitindo elipses sobrepostas.
+
+`spherical` usa uma única variância por componente e gera contornos esféricos. `full` estima uma matriz completa por componente, permitindo dispersões e orientações diferentes, mas exige mais dados e aumenta risco de sobreajuste ou singularidade.
+
+Uma análise compararia tipos de covariância e números de componentes por BIC, sem tratar o menor valor como prova final. Repetições com sementes e amostras avaliariam estabilidade. Distribuições das responsabilidades revelariam casos ambíguos; componentes minúsculos, covariâncias degeneradas, perfis e utilidade precisariam ser inspecionados. Em grupos elípticos com orientações distintas, GMM `full` é candidato inicial, não vencedor automático.
+
+## U06-C22 — Desafio opcional
 
 Tratar todo ruído como um único grupo faz parecer que objetos possivelmente dispersos formam uma classe coerente. Isso pode piorar ou distorcer silhouette e Davies–Bouldin, pois o rótulo `-1` significa “não atribuído a região densa”, não “mesmo grupo”.
 

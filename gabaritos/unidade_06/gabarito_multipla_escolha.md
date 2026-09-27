@@ -7,6 +7,7 @@
 | 3 | A | 7 | A | 11 | A | 15 | A |
 | 4 | C | 8 | C | 12 | C | 16 | C |
 | 17 | B | 18 | D | 19 | A | 20 | C |
+| 21 | B | 22 | D | 23 | A | 24 | C |
 
 ## Justificativas
 
@@ -90,8 +91,24 @@ CLIQUE encontra unidades densas em subconjuntos das dimensões e usa monotonicid
 
 Células grandes agregam áreas extensas, podendo preencher separações e impor limites horizontais ou verticais grosseiros. O limiar continua influente.
 
+### U06-M21 — B
+
+Responsabilidade é uma probabilidade posterior normalizada entre os componentes para um objeto. Ela não é rótulo observado nem distância bruta.
+
+### U06-M22 — D
+
+Na etapa M, as responsabilidades calculadas na etapa E atuam como pesos para reestimar proporções, médias e covariâncias.
+
+### U06-M23 — A
+
+`full` estima uma matriz de covariância completa para cada componente, permitindo orientações diferentes. `spherical` restringe os contornos a esferas.
+
+### U06-M24 — C
+
+BIC menor indica melhor equilíbrio entre verossimilhança e penalização de complexidade entre os candidatos. Estabilidade, ajuste e significado ainda precisam ser verificados.
+
 ## Distribuição das respostas
 
 | A | B | C | D |
 |---:|---:|---:|---:|
-| 5 | 5 | 5 | 5 |
+| 6 | 6 | 6 | 6 |

@@ -1,10 +1,10 @@
 # Unidade VI — Exercícios conceituais
 
-**Tema:** fundamentos, k-means, k-medoids, agrupamento hierárquico, DBSCAN, grade e avaliação de grupos
+**Tema:** fundamentos, k-means, k-medoids, agrupamento hierárquico, GMM, DBSCAN, grade e avaliação de grupos
 
 **Objetivos avaliados:** formular uma análise de grupos; calcular e interpretar etapas dos algoritmos; comparar geometrias, representações e parâmetros; avaliar qualidade, estabilidade e utilidade; comunicar segmentações de forma responsável.
 
-**Tempo estimado:** 180 minutos
+**Tempo estimado:** 210 minutos
 
 **Instruções:** justifique as respostas, apresente cálculos e declare as escolhas de distância, escala e parâmetros. Numerações de grupos são arbitrárias.
 
@@ -54,6 +54,12 @@
 
 19. **U06-C19.** Uma organização quer aplicar PAM diretamente a um milhão de registros para obter dez representantes observados. Explique por que a busca de trocas pode ser cara, proponha uma estratégia baseada em amostragem e indique como verificar se os representantes generalizam para toda a base.
 
+## Modelos probabilísticos
+
+20. **U06-C20.** Em um GMM com dois componentes, $\pi_1=0{,}7$, $p(x\mid C_1)=0{,}1$, $\pi_2=0{,}3$ e $p(x\mid C_2)=0{,}4$. Calcule as responsabilidades normalizadas. Interprete a atribuição rígida e a incerteza restante.
+
+21. **U06-C21.** Compare k-means e GMM para grupos elípticos sobrepostos. Explique o papel da covariância, diferencie os tipos `spherical` e `full` e discuta como BIC, estabilidade e responsabilidades participariam da escolha.
+
 ## Desafio opcional
 
-20. **U06-C20.** Compare duas estratégias para avaliar DBSCAN: calcular métricas internas tratando todo ruído como um único grupo ou excluir o ruído e informar cobertura. Discuta problemas das duas estratégias e proponha uma forma transparente de relatar os resultados.
+22. **U06-C22.** Compare duas estratégias para avaliar DBSCAN: calcular métricas internas tratando todo ruído como um único grupo ou excluir o ruído e informar cobertura. Discuta problemas das duas estratégias e proponha uma forma transparente de relatar os resultados.
