@@ -1,8 +1,8 @@
 # Unidade V — Exercícios conceituais
 
-**Tema:** classificação, avaliação, Naive Bayes, k-NN, árvores e regressão linear  
-**Objetivos avaliados:** formular tarefas supervisionadas; interpretar métricas e custos; explicar intuitivamente os três classificadores; calcular divisões de árvores; ajustar e avaliar regressões; comunicar limitações e evitar conclusões causais.  
-**Tempo estimado:** 150 minutos  
+**Tema:** classificação, regressão, ensembles e interpretabilidade
+**Objetivos avaliados:** formular tarefas supervisionadas; interpretar métricas e custos; explicar intuitivamente os três classificadores; calcular divisões de árvores; ajustar e avaliar regressões; comunicar limitações e evitar conclusões causais.
+**Tempo estimado:** 210 minutos
 **Instruções:** justifique decisões, apresente cálculos e interprete resultados no contexto. Não atribua causalidade a resultados preditivos.
 
 ## Formulação e avaliação de classificação
@@ -44,3 +44,17 @@
 15. **U05-C15.** Em uma regressão de preço, os coeficientes são 4 para área e −2 para idade. Interprete-os com unidades e a expressão “mantendo os demais constantes”. Explique como colinearidade entre área e número de quartos pode afetar os coeficientes.
 
 16. **U05-C16.** Um modelo treinado com imóveis entre 40 e 180 m² recebe um imóvel de 400 m². Diferencie interpolação de extrapolação, proponha verificações antes de usar a previsão e explique por que $R^2$ alto não resolve o problema.
+
+## Ensembles e interpretabilidade
+
+17. **U05-C17.** Explique amostragem bootstrap, objetos OOB e como bagging agrega classificadores. Por que o teste deve ficar fora dos sorteios?
+
+18. **U05-C18.** Relacione variância, diversidade e correlação dos erros. Compare bagging de árvores e floresta aleatória.
+
+19. **U05-C19.** Compare bagging e boosting quanto à ordem de treinamento, atenção aos erros, pesos dos modelos, paralelização e sensibilidade a ruído.
+
+20. **U05-C20.** Diferencie votação dura e suave. Em que situação probabilidades mal calibradas tornam a votação suave problemática?
+
+21. **U05-C21.** Diferencie relevância global, explicação local, seleção de atributos e efeito causal. Classifique importância por permutação e Shapley nesses termos.
+
+22. **U05-C22.** Um caso possui valor-base 0,40 e contribuições de Shapley $[0,15,-0,08,0,03]$. Calcule a previsão e explique por que atributos correlacionados e a população de referência exigem cautela.

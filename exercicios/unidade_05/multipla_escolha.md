@@ -145,3 +145,75 @@ Prever para 400 m² após treinar apenas entre 40 e 180 m² é:
 - [ ] **B.** Classificação ordinal
 - [ ] **C.** Extrapolação que exige cautela
 - [ ] **D.** Evidência causal
+
+## U05-M17
+
+No bagging, cada modelo-base é treinado principalmente em:
+
+- [ ] **A.** Uma amostra bootstrap do treino
+- [ ] **B.** Todo o conjunto de teste
+- [ ] **C.** Apenas objetos classificados corretamente
+- [ ] **D.** Uma classe por vez
+
+## U05-M18
+
+Além de bootstrap, a floresta aleatória diversifica árvores por:
+
+- [ ] **A.** Remoção do alvo
+- [ ] **B.** Subconjuntos aleatórios de atributos em cada divisão
+- [ ] **C.** Uso obrigatório de distância Euclidiana
+- [ ] **D.** Um único nível de profundidade
+
+## U05-M19
+
+Qual característica distingue boosting de bagging?
+
+- [ ] **A.** Não usa modelos-base
+- [ ] **B.** Sempre produz uma árvore única
+- [ ] **C.** Constrói modelos sequencialmente, dando atenção aos erros anteriores
+- [ ] **D.** Usa o teste para atualizar pesos
+
+## U05-M20
+
+Se todos os componentes erram exatamente os mesmos objetos, a principal limitação é:
+
+- [ ] **A.** Excesso de classes
+- [ ] **B.** Falta de escala
+- [ ] **C.** Ausência de bootstrap no teste
+- [ ] **D.** Falta de diversidade útil
+
+## U05-M21
+
+A importância por permutação mede principalmente:
+
+- [ ] **A.** A queda de desempenho ao destruir a informação de um atributo
+- [ ] **B.** O efeito causal de aumentar o atributo
+- [ ] **C.** A quantidade de valores distintos
+- [ ] **D.** A frequência do alvo
+
+## U05-M22
+
+Um valor de Shapley local positivo indica que o atributo:
+
+- [ ] **A.** Causa o desfecho
+- [ ] **B.** Elevou a saída explicada em relação ao valor-base
+- [ ] **C.** Deve ser removido
+- [ ] **D.** É globalmente o mais importante
+
+## U05-M23
+
+Dois atributos fortemente correlacionados podem apresentar baixa importância individual por permutação porque:
+
+- [ ] **A.** Permutação só funciona em regressão
+- [ ] **B.** A correlação elimina o alvo
+- [ ] **C.** Um pode substituir informação do outro
+- [ ] **D.** Ambos se tornam causais
+
+## U05-M24
+
+Qual conclusão é responsável?
+
+- [ ] **A.** Maior Shapley prova causalidade
+- [ ] **B.** Importância de impureza vale para qualquer população
+- [ ] **C.** Explicações dispensam teste
+- [ ] **D.** Relevância depende do modelo, dados, métrica e referência

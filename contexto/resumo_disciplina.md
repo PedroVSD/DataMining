@@ -75,6 +75,8 @@ Ao final da disciplina, o aluno deve:
 - Intuição, aplicação e limitações de classificadores bayesianos, k-NN e árvores de decisão.
 - Intuição da regressão linear simples e múltipla, interpretação de previsões e resíduos.
 - Avaliação da regressão por MAE, RMSE e coeficiente de determinação, sem interpretação causal automática dos coeficientes.
+- Ensembles por bagging, florestas aleatórias, votação e boosting, enfatizando diversidade e avaliação.
+- Relevância preditiva global e local por permutação e valores de Shapley, sem interpretação causal automática.
 
 ### Unidade VI — Análise de Grupos
 

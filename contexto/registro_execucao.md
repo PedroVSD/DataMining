@@ -21,7 +21,7 @@ Estados permitidos:
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
-| Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-26 | Quatro notebooks, listas, gabaritos e pareceres produzidos e validados |
+| Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-27 | Sete notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VI — Análise de Grupos | Concluída | 100% | 2026-09-27 | Sete notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
@@ -48,6 +48,9 @@ Estados permitidos:
 | `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Concluída | Concluída | Aprovada | Concluída |
 | `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Concluída | Concluída | Aprovada | Concluída |
 | `05_04_regressao_linear.ipynb` | Regressão linear | Concluída | Concluída | Aprovada | Concluída |
+| `05_05_bagging_e_florestas_aleatorias.ipynb` | Bagging e florestas aleatórias | Concluída | Concluída | Aprovada | Concluída |
+| `05_06_ensembles_votacao_e_boosting.ipynb` | Votação e boosting | Concluída | Concluída | Aprovada | Concluída |
+| `05_07_relevancia_preditiva_e_shapley.ipynb` | Relevância preditiva e Shapley | Concluída | Concluída | Aprovada | Concluída |
 | `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Concluída | Concluída | Aprovada | Concluída |
 | `06_02_agrupamento_hierarquico.ipynb` | Agrupamento hierárquico | Concluída | Concluída | Aprovada | Concluída |
 | `06_03_dbscan.ipynb` | DBSCAN | Concluída | Concluída | Aprovada | Concluída |
@@ -74,6 +77,8 @@ Estados permitidos:
 
 ### 2026-09-27
 
+- Ampliada a Unidade V para sete notebooks com bagging e florestas aleatórias (05.05), votação e boosting (05.06) e relevância preditiva com Shapley (05.07), baseados nas seções 6.7 e 7.7.3 do livro-guia.
+- Os três notebooks foram executados com uv, totalizando 52 células, 19 de código, oito figuras e nenhuma saída de erro; atividades, gabaritos, listas e pareceres foram atualizados.
 - Ampliado o notebook `06_02_agrupamento_hierarquico.ipynb` com explicação passo a passo da estratégia divisiva (top-down), DIANA, k-means bissector, condições de parada, exemplo e comparação com a estratégia aglomerativa; nova execução com uv em 15 células, três figuras e nenhuma saída de erro.
 - Reorganizada a Unidade VI em sete notebooks, mantendo a avaliação como o último material.
 - Separado o agrupamento hierárquico no notebook `06_02_agrupamento_hierarquico.ipynb`, com quatro ligações, dendrogramas, corte e Ward; execução com uv em 14 células, quatro de código, três figuras e nenhuma saída de erro.

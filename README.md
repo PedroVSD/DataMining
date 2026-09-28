@@ -62,6 +62,9 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Classificadores bayesianos e k-NN](notebooks/unidade_05/05_02_classificadores_bayesianos_e_knn.ipynb)
    - [Árvores de decisão](notebooks/unidade_05/05_03_arvores_de_decisao.ipynb)
    - [Regressão linear](notebooks/unidade_05/05_04_regressao_linear.ipynb)
+   - [Bagging e florestas aleatórias](notebooks/unidade_05/05_05_bagging_e_florestas_aleatorias.ipynb)
+   - [Ensembles por votação e boosting](notebooks/unidade_05/05_06_ensembles_votacao_e_boosting.ipynb)
+   - [Relevância preditiva e Shapley](notebooks/unidade_05/05_07_relevancia_preditiva_e_shapley.ipynb)
    - [Exercícios conceituais](exercicios/unidade_05/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_05/multipla_escolha.md)
 7. Unidade VI — Análise de Grupos

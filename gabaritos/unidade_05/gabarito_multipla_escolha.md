@@ -6,6 +6,9 @@
 | 2 | D | 6 | D | 10 | B | 14 | D |
 | 3 | A | 7 | A | 11 | A | 15 | A |
 | 4 | C | 8 | C | 12 | C | 16 | C |
+| 17 | A | 18 | B | 19 | C | 20 | D |
+| 21 | A | 22 | B | 23 | C | 24 | D |
+
 
 ## Justificativas
 
@@ -73,8 +76,32 @@ $R^2$ negativo significa soma quadrática de erros maior que a referência pela 
 
 400 está fora da faixa observada; a fórmula produz um número, mas a continuidade da relação linear não foi validada.
 
+### U05-M17 — A
+Bootstrap sorteia com reposição apenas no treino.
+
+### U05-M18 — B
+Subconjuntos de atributos reduzem correlação entre árvores.
+
+### U05-M19 — C
+Boosting é sequencial e reorienta atenção conforme os erros.
+
+### U05-M20 — D
+Erros idênticos não se compensam por votação.
+
+### U05-M21 — A
+A permutação mede a perda de desempenho após embaralhar informação.
+
+### U05-M22 — B
+O sinal positivo eleva a saída em relação ao valor-base, sem implicar causalidade.
+
+### U05-M23 — C
+Informação redundante pode ser preservada pelo atributo não permutado.
+
+### U05-M24 — D
+Importâncias e explicações são condicionais ao sistema avaliado.
+
 ## Distribuição das respostas
 
 | A | B | C | D |
 |---:|---:|---:|---:|
-| 4 | 4 | 4 | 4 |
+| 6 | 6 | 6 | 6 |

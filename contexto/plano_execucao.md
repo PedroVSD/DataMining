@@ -274,8 +274,8 @@ Antes da Unidade I:
 
 ### Unidade V — Classificação e Regressão
 
-**Carga prevista:** 12 horas  
-**Referência principal no livro:** Capítulo 6, especialmente seções 6.1–6.6.
+**Carga prevista:** 18,5 horas
+**Referência principal no livro:** Capítulo 6, especialmente seções 6.1–6.7, e Seção 7.7.3 do Capítulo 7.
 
 **Delimitação pedagógica:** esta é uma disciplina de mineração de dados, não uma disciplina especializada de aprendizado de máquina. Os métodos serão apresentados pela intuição, pelo tipo de padrão que capturam, pela aplicação a dados e pela interpretação crítica dos resultados. Demonstrações matemáticas extensas, otimização de hiperparâmetros e comparação exaustiva de arquiteturas ficam fora do escopo.
 
@@ -286,7 +286,9 @@ Antes da Unidade I:
 - interpretar matriz de confusão e selecionar métricas conforme o custo dos erros;
 - explicar intuitivamente e aplicar Naive Bayes, k-NN e árvores de decisão;
 - interpretar regressão linear simples e múltipla por previsões, coeficientes e resíduos;
-- comparar resultados com uma referência simples e comunicar limitações sem atribuir causalidade.
+- comparar resultados com uma referência simples e comunicar limitações sem atribuir causalidade;
+- explicar bagging, florestas aleatórias, votação e boosting pela intuição de diversidade;
+- analisar relevância preditiva global e local com permutação e valores de Shapley.
 
 **Notebooks previstos**
 
@@ -312,12 +314,18 @@ Antes da Unidade I:
    - regressão simples e múltipla com exemplos pequenos;
    - MAE, RMSE e coeficiente de determinação;
    - interpretação cautelosa de coeficientes, extrapolação e associação.
+5. `05_05_bagging_e_florestas_aleatorias.ipynb`
+   - bootstrap, OOB, redução de variância e florestas aleatórias.
+6. `05_06_ensembles_votacao_e_boosting.ipynb`
+   - votação dura e suave, boosting e comparação de ensembles.
+7. `05_07_relevancia_preditiva_e_shapley.ipynb`
+   - relevância global e local, permutação e valores de Shapley.
 
-**Atividade integradora:** aplicar os três classificadores a um pequeno problema sob o mesmo protocolo, explicar por que produzem resultados diferentes e selecionar uma solução considerando métricas, custo dos erros e interpretabilidade; em seguida, construir uma regressão e interpretar previsões e resíduos.
+**Atividade integradora:** comparar classificadores individuais e ensembles sob o mesmo protocolo, justificar a combinação, avaliar custo e estabilidade e explicar previsões global e localmente; em seguida, construir uma regressão e interpretar previsões e resíduos.
 
 **Listas da unidade:** exercícios conceituais de formulação, cálculo, comparação e interpretação de modelos; múltipla escolha com gabarito comentado.
 
-**Critério de conclusão:** ausência de vazamento, sementes fixadas, comparação com *baseline*, métricas ligadas ao problema, métodos explicados intuitivamente e limitações explicitadas.
+**Critério de conclusão:** ausência de vazamento, sementes fixadas, comparação com *baseline*, métricas ligadas ao problema, diversidade de ensembles justificada, explicações preditivas sem linguagem causal e limitações explicitadas.
 
 ### Unidade VI — Análise de Grupos
 

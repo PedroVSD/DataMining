@@ -100,3 +100,27 @@ Mantendo os demais atributos do modelo constantes, 1 m² adicional está associa
 ## U05-C16
 
 Interpolação ocorre dentro da região observada; 400 m² é extrapolação porque excede 180 m². Deve-se verificar faixa conjunta dos atributos, existência de imóveis comparáveis, resíduos por faixa, estabilidade temporal, conhecimento do mercado e modelos alternativos; pode-se recusar ou sinalizar a previsão. $R^2$ resume desempenho médio na distribuição avaliada e não valida prolongamento linear fora dela.
+
+## U05-C17
+
+Bootstrap sorteia $n$ vezes com reposição dentro do treino; alguns objetos repetem e os ausentes são OOB para aquela amostra. Cada modelo é ajustado em um bootstrap, e bagging agrega classes por voto ou valores por média. O teste deve permanecer intocado para estimar generalização sem contaminar ajuste ou seleção.
+
+## U05-C18
+
+Árvores profundas têm alta variância. Agregar modelos reduz variação quando seus erros não são perfeitamente correlacionados. Bagging diversifica por bootstraps; floresta aleatória também limita aleatoriamente atributos candidatos por divisão, geralmente reduzindo correlação. Diversidade excessiva com modelos muito fracos pode aumentar viés.
+
+## U05-C19
+
+Bagging é paralelo, usa bootstraps e normalmente pesos iguais; combate sobretudo variância. Boosting é sequencial, aumenta atenção relativa aos erros e pondera modelos por competência; pode reduzir viés, mas não paraleliza da mesma forma e pode perseguir ruído ou rótulos incorretos.
+
+## U05-C20
+
+Votação dura usa classes; suave agrega probabilidades. Se um modelo for muito confiante, mas mal calibrado, sua probabilidade extrema pode dominar vários votos moderados. Calibração, pesos e regra de agregação devem ser avaliados dentro do treino.
+
+## U05-C21
+
+Relevância global resume dependência média; explicação local trata um caso; seleção decide o conjunto usado; efeito causal pergunta por intervenção. Permutação é global e agnóstica ao modelo. Shapley é local, embora valores absolutos possam ser agregados globalmente. Nenhum deles, sozinho, identifica causalidade.
+
+## U05-C22
+
+A previsão é $0,40+0,15-0,08+0,03=0,50$. Atributos correlacionados podem dividir ou redistribuir contribuições porque fornecem informação substituível. O valor-base e as coalizões dependem da referência; outra população pode mudar a decomposição. Os sinais descrevem o modelo naquele contexto, não efeitos de intervenção.
