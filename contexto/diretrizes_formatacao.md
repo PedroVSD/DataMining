@@ -18,21 +18,24 @@ Estas diretrizes definem o padrão editorial, visual e técnico do material da d
 
 Cada notebook deve seguir esta ordem geral:
 
-1. Título e identificação da unidade.
-2. Visão geral e pergunta norteadora.
-3. Objetivos de aprendizagem.
-4. Pré-requisitos.
-5. Importações e configuração.
-6. Conteúdo em seções curtas, alternando teoria e prática.
-7. Exemplo guiado.
-8. Aplicação com dados.
-9. Exercícios ou verificação de aprendizagem.
-10. Síntese.
-11. Referências e fontes.
+1. Botão “Abrir no Google Colab”, apontando para o próprio notebook na branch principal do repositório.
+2. Título e identificação da unidade.
+3. Visão geral e pergunta norteadora.
+4. Objetivos de aprendizagem.
+5. Pré-requisitos.
+6. Importações e configuração.
+7. Conteúdo em seções curtas, alternando teoria e prática.
+8. Exemplo guiado.
+9. Aplicação com dados.
+10. Exercícios ou verificação de aprendizagem.
+11. Síntese.
+12. Referências e fontes.
 
 Modelo de abertura:
 
 ```markdown
+[![Abrir no Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ORGANIZACAO/REPOSITORIO/blob/main/notebooks/unidade_XX/nome_do_notebook.ipynb)
+
 # Unidade II — Análise de Dados
 ## Tipos e descrição de dados
 
@@ -345,6 +348,7 @@ Ferramentas de validação poderão incluir execução via `jupyter nbconvert --
 
 ## 14. Checklist editorial por notebook
 
+- [ ] Botão do Google Colab no início, com URL correspondente ao caminho do notebook.
 - [ ] Um único título de nível 1.
 - [ ] Objetivos e pré-requisitos explícitos.
 - [ ] Termos e siglas definidos.

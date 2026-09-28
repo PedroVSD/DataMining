@@ -77,6 +77,7 @@ Estados permitidos:
 
 ### 2026-09-27
 
+- Inserido em todos os 27 notebooks das Unidades I a VI um botão inicial para abertura direta no Google Colab, apontando para a branch `main` de `lalvim/DataMining`; diretriz e checklist editorial atualizados.
 - Ampliada a Unidade V para sete notebooks com bagging e florestas aleatórias (05.05), votação e boosting (05.06) e relevância preditiva com Shapley (05.07), baseados nas seções 6.7 e 7.7.3 do livro-guia.
 - Os três notebooks foram executados com uv, totalizando 52 células, 19 de código, oito figuras e nenhuma saída de erro; atividades, gabaritos, listas e pareceres foram atualizados.
 - Ampliado o notebook `06_02_agrupamento_hierarquico.ipynb` com explicação passo a passo da estratégia divisiva (top-down), DIANA, k-means bissector, condições de parada, exemplo e comparação com a estratégia aglomerativa; nova execução com uv em 15 células, três figuras e nenhuma saída de erro.
