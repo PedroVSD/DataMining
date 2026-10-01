@@ -75,6 +75,10 @@ Estados permitidos:
 
 ## Histórico
 
+### 2026-09-30
+
+- Ampliado o exemplo de Naive Bayes no notebook 05.02: cada fração de Laplace agora identifica evento, classe e probabilidade condicional; escores e normalização das posteriores foram detalhados, a tabela computacional e o gabarito foram alinhados, e o notebook foi reexecutado sem erros.
+
 ### 2026-09-27
 
 - Inserido em todos os 27 notebooks das Unidades I a VI um botão inicial para abertura direta no Google Colab, apontando para a branch `main` de `lalvim/DataMining`; diretriz e checklist editorial atualizados.

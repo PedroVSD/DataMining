@@ -10,45 +10,97 @@ Isso não torna necessariamente todas as classificações incorretas. Mesmo com 
 
 ## U05-NB02-E01
 
-O caso é $\mathbf{x}=(\text{web},\text{não urgente},\text{não premium})$. As duas classes possuem probabilidade prévia $6/12=0{,}5$.
-
-Na classe prioritária há dois casos `web`, um `não urgente` e dois `não premium`. Com Laplace:
+O caso é
 
 $$
-\operatorname{escore}(\text{sim})
-=0{,}5\times\frac{2+1}{6+2}
-\times\frac{1+1}{6+2}
-\times\frac{2+1}{6+2}
-=0{,}017578125.
+\mathbf{x}=(\text{canal=web},\ \text{texto urgente=não},\ \text{cliente premium=não}).
 $$
 
-Na classe não prioritária há quatro casos `web`, cinco `não urgente` e quatro `não premium`:
+As duas classes possuem a mesma probabilidade prévia:
 
 $$
-\operatorname{escore}(\text{não})
-=0{,}5\times\frac{4+1}{6+2}
-\times\frac{5+1}{6+2}
-\times\frac{4+1}{6+2}
-=0{,}146484375.
+P(C=\text{sim})=P(C=\text{não})=\frac{6}{12}=0{,}5.
 $$
 
-A soma é $0{,}1640625$. Portanto:
+Na classe prioritária, $C=\text{sim}$, há dois casos com canal web, um com texto não urgente e dois de clientes não premium. Com Laplace:
 
 $$
-P(\text{sim}\mid\mathbf{x})
+P(\text{canal=web}\mid C=\text{sim})
+=\frac{2+1}{6+2}=\frac{3}{8},
+$$
+
+$$
+P(\text{texto urgente=não}\mid C=\text{sim})
+=\frac{1+1}{6+2}=\frac{2}{8},
+$$
+
+$$
+P(\text{cliente premium=não}\mid C=\text{sim})
+=\frac{2+1}{6+2}=\frac{3}{8}.
+$$
+
+Logo:
+
+$$
+\begin{aligned}
+\operatorname{escore}(C=\text{sim})
+&=P(C=\text{sim})
+P(\text{web}\mid C=\text{sim})
+P(\text{não urgente}\mid C=\text{sim})
+P(\text{não premium}\mid C=\text{sim})\\
+&=0{,}5\times\frac{3}{8}\times\frac{2}{8}\times\frac{3}{8}\\
+&=0{,}017578125.
+\end{aligned}
+$$
+
+Na classe não prioritária, $C=\text{não}$, há quatro casos web, cinco não urgentes e quatro não premium:
+
+$$
+P(\text{canal=web}\mid C=\text{não})
+=\frac{4+1}{6+2}=\frac{5}{8},
+$$
+
+$$
+P(\text{texto urgente=não}\mid C=\text{não})
+=\frac{5+1}{6+2}=\frac{6}{8},
+$$
+
+$$
+P(\text{cliente premium=não}\mid C=\text{não})
+=\frac{4+1}{6+2}=\frac{5}{8}.
+$$
+
+Assim:
+
+$$
+\begin{aligned}
+\operatorname{escore}(C=\text{não})
+&=P(C=\text{não})
+P(\text{web}\mid C=\text{não})
+P(\text{não urgente}\mid C=\text{não})
+P(\text{não premium}\mid C=\text{não})\\
+&=0{,}5\times\frac{5}{8}\times\frac{6}{8}\times\frac{5}{8}\\
+&=0{,}146484375.
+\end{aligned}
+$$
+
+A soma dos escores é $0{,}1640625$. Portanto:
+
+$$
+P(C=\text{sim}\mid\mathbf{x})
 =\frac{0{,}017578125}{0{,}1640625}
 =0{,}1071,
 $$
 
 $$
-P(\text{não}\mid\mathbf{x})
+P(C=\text{não}\mid\mathbf{x})
 =\frac{0{,}146484375}{0{,}1640625}
 =0{,}8929.
 $$
 
 A classe prevista é **não prioritária**.
 
-**Rubrica (8 pontos):** prévias (1), seis probabilidades condicionais com Laplace (3), dois escores (2), normalização e classe correta (2).
+**Rubrica (8 pontos):** prévias (1), seis probabilidades condicionais com Laplace e notação correta (3), dois escores (2), normalização e classe correta (2).
 
 ## U05-NB02-E02
 
