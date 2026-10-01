@@ -2,4 +2,4 @@
 
 **Decisão:** Aprovado — 2026-09-30
 
-Executado integralmente com uv: 13 células, quatro de código, uma figura e nenhuma saída de erro. Dados são definidos localmente.
+Executado integralmente com uv: 17 células, seis de código, três figuras e nenhuma saída de erro. Dados são definidos localmente.

@@ -295,7 +295,7 @@ Antes da Unidade I:
 1. `05_01_processo_e_avaliacao_de_classificacao.ipynb`
    - classificação versus regressão, treino, teste, baseline, vazamento e métricas.
 2. `05_02_knn.ipynb`
-   - vizinhança, distância, escala, escolha de $k$ e limitações.
+   - vizinhança, distância, escala, escolha de $k$, sobreajuste, subajuste e limitações.
 3. `05_03_classificadores_bayesianos.ipynb`
    - Teorema de Bayes, independência condicional, Laplace, escores e posteriores.
 4. `05_04_arvores_de_decisao.ipynb`

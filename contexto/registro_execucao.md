@@ -78,8 +78,9 @@ Estados permitidos:
 
 ### 2026-09-30
 
+- Ampliado o notebook 05_02_knn.ipynb com fronteiras para $k=1$, $k=15$ e $k=151$ e curva de ajuste/validação, explicando visualmente sobreajuste e subajuste; execução concluída em 17 células, seis de código, três figuras e nenhuma saída de erro.
 - Reorganizada a Unidade V em oito notebooks: k-NN isolado em 05.02, classificadores bayesianos em 05.03 e materiais posteriores renumerados até 05.08; links do Colab, atividades, gabaritos, pareceres e índices foram alinhados.
-- O notebook 05.02 foi executado em 13 células, quatro de código e uma figura; o 05.03, em 13 células e três de código. Ambos terminaram sem erros e receberam quatro atividades com soluções completas.
+- O notebook 05.03 foi executado em 13 células e três de código, sem erros; os dois notebooks separados receberam quatro atividades com soluções completas.
 - Ampliado o exemplo de Naive Bayes, agora no notebook 05.03: cada fração de Laplace agora identifica evento, classe e probabilidade condicional; escores e normalização das posteriores foram detalhados, a tabela computacional e o gabarito foram alinhados, e o notebook foi reexecutado sem erros.
 
 ### 2026-09-27

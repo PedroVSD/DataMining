@@ -2,4 +2,4 @@
 
 **Decisão:** Aprovado — 2026-09-30
 
-O método recebe notebook próprio, com progressão entre intuição, exemplo calculável, código, interpretação, limitações e atividades. A separação reduz alternância conceitual e melhora a continuidade.
+O método recebe notebook próprio, com progressão entre intuição, exemplo calculável, código, interpretação, limitações e atividades. A separação reduz alternância conceitual e melhora a continuidade. Fronteiras para três valores de k e curvas de ajuste/validação tornam visíveis sobreajuste, equilíbrio e subajuste.
