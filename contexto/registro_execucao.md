@@ -21,7 +21,7 @@ Estados permitidos:
 | Unidade II — Análise de Dados | Concluída | 100% | 2026-09-07 | Todos os materiais em Markdown e gabaritos separados foram validados e aprovados |
 | Unidade III — Pré-processamento | Concluída | 100% | 2026-09-09 | Notebook de redução ampliado; materiais, gabaritos e pareceres validados |
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
-| Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-27 | Sete notebooks, listas, gabaritos e pareceres produzidos e validados |
+| Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-30 | Oito notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VI — Análise de Grupos | Concluída | 100% | 2026-09-27 | Sete notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
@@ -45,12 +45,13 @@ Estados permitidos:
 | `04_04_padroes_sequenciais.ipynb` | Padrões sequenciais | Concluída | Concluída | Aprovada | Concluída |
 | `04_05_avaliacao_responsavel_de_regras.ipynb` | Avaliação responsável de regras | Concluída | Concluída | Aprovada | Concluída |
 | `05_01_processo_e_avaliacao_de_classificacao.ipynb` | Processo e métricas | Concluída | Concluída | Aprovada | Concluída |
-| `05_02_classificadores_bayesianos_e_knn.ipynb` | Naive Bayes e k-NN | Concluída | Concluída | Aprovada | Concluída |
-| `05_03_arvores_de_decisao.ipynb` | Árvores de decisão | Concluída | Concluída | Aprovada | Concluída |
-| `05_04_regressao_linear.ipynb` | Regressão linear | Concluída | Concluída | Aprovada | Concluída |
-| `05_05_bagging_e_florestas_aleatorias.ipynb` | Bagging e florestas aleatórias | Concluída | Concluída | Aprovada | Concluída |
-| `05_06_ensembles_votacao_e_boosting.ipynb` | Votação e boosting | Concluída | Concluída | Aprovada | Concluída |
-| `05_07_relevancia_preditiva_e_shapley.ipynb` | Relevância preditiva e Shapley | Concluída | Concluída | Aprovada | Concluída |
+| `05_02_knn.ipynb` | k-vizinhos mais próximos | Concluída | Concluída | Aprovada | Concluída |
+| `05_03_classificadores_bayesianos.ipynb` | Naive Bayes | Concluída | Concluída | Aprovada | Concluída |
+| `05_04_arvores_de_decisao.ipynb` | Árvores de decisão | Concluída | Concluída | Aprovada | Concluída |
+| `05_05_regressao_linear.ipynb` | Regressão linear | Concluída | Concluída | Aprovada | Concluída |
+| `05_06_bagging_e_florestas_aleatorias.ipynb` | Bagging e florestas aleatórias | Concluída | Concluída | Aprovada | Concluída |
+| `05_07_ensembles_votacao_e_boosting.ipynb` | Votação e boosting | Concluída | Concluída | Aprovada | Concluída |
+| `05_08_relevancia_preditiva_e_shapley.ipynb` | Relevância preditiva e Shapley | Concluída | Concluída | Aprovada | Concluída |
 | `06_01_fundamentos_e_kmeans.ipynb` | Fundamentos e k-means | Concluída | Concluída | Aprovada | Concluída |
 | `06_02_agrupamento_hierarquico.ipynb` | Agrupamento hierárquico | Concluída | Concluída | Aprovada | Concluída |
 | `06_03_dbscan.ipynb` | DBSCAN | Concluída | Concluída | Aprovada | Concluída |
@@ -77,12 +78,14 @@ Estados permitidos:
 
 ### 2026-09-30
 
-- Ampliado o exemplo de Naive Bayes no notebook 05.02: cada fração de Laplace agora identifica evento, classe e probabilidade condicional; escores e normalização das posteriores foram detalhados, a tabela computacional e o gabarito foram alinhados, e o notebook foi reexecutado sem erros.
+- Reorganizada a Unidade V em oito notebooks: k-NN isolado em 05.02, classificadores bayesianos em 05.03 e materiais posteriores renumerados até 05.08; links do Colab, atividades, gabaritos, pareceres e índices foram alinhados.
+- O notebook 05.02 foi executado em 13 células, quatro de código e uma figura; o 05.03, em 13 células e três de código. Ambos terminaram sem erros e receberam quatro atividades com soluções completas.
+- Ampliado o exemplo de Naive Bayes, agora no notebook 05.03: cada fração de Laplace agora identifica evento, classe e probabilidade condicional; escores e normalização das posteriores foram detalhados, a tabela computacional e o gabarito foram alinhados, e o notebook foi reexecutado sem erros.
 
 ### 2026-09-27
 
-- Inserido em todos os 27 notebooks das Unidades I a VI um botão inicial para abertura direta no Google Colab, apontando para a branch `main` de `lalvim/DataMining`; diretriz e checklist editorial atualizados.
-- Ampliada a Unidade V para sete notebooks com bagging e florestas aleatórias (05.05), votação e boosting (05.06) e relevância preditiva com Shapley (05.07), baseados nas seções 6.7 e 7.7.3 do livro-guia.
+- Inserido em todos os 28 notebooks das Unidades I a VI um botão inicial para abertura direta no Google Colab, apontando para a branch `main` de `lalvim/DataMining`; diretriz e checklist editorial atualizados.
+- Ampliada a Unidade V com bagging e florestas aleatórias, votação e boosting e relevância preditiva com Shapley, hoje numerados como 05.06, 05.07 e 05.08, com base nas seções 6.7 e 7.7.3 do livro-guia.
 - Os três notebooks foram executados com uv, totalizando 52 células, 19 de código, oito figuras e nenhuma saída de erro; atividades, gabaritos, listas e pareceres foram atualizados.
 - Ampliado o notebook `06_02_agrupamento_hierarquico.ipynb` com explicação passo a passo da estratégia divisiva (top-down), DIANA, k-means bissector, condições de parada, exemplo e comparação com a estratégia aglomerativa; nova execução com uv em 15 células, três figuras e nenhuma saída de erro.
 - Reorganizada a Unidade VI em sete notebooks, mantendo a avaliação como o último material.
@@ -102,29 +105,23 @@ Estados permitidos:
 
 ### 2026-09-26
 
-- Produzido o notebook `05_04_regressao_linear.ipynb`, baseado na seção 6.5.1 do livro-guia, concluindo a sequência principal da Unidade V.
+- Produzido o notebook `05_05_regressao_linear.ipynb`, baseado na seção 6.5.1 do livro-guia, concluindo a sequência principal da Unidade V.
 - Apresentadas regressões simples e múltipla pela intuição da reta e da superfície, com resíduos, mínimos quadrados, coeficientes e unidades.
 - Comparados *baseline*, regressão simples e múltipla: a múltipla obteve MAE 26,386, RMSE 33,345 e $R^2$ 0,954 no teste sintético.
 - Incluídas duas figuras computacionais, diagnóstico de resíduos, discussão de colinearidade, extrapolação e interpretação não causal.
-- Criadas cinco atividades `U05-NB04-*` e gabarito separado com cálculos completos e rubricas.
-- Notebook 05.04 executado com `uv`: 22 células, sete de código, duas figuras, identificadores únicos e nenhuma saída de erro.
+- Criadas cinco atividades `U05-NB05-*` e gabarito separado com cálculos completos e rubricas.
+- Notebook 05.05 executado com `uv`: 22 células, sete de código, duas figuras, identificadores únicos e nenhuma saída de erro.
 - Criadas a lista conceitual e a lista de múltipla escolha da Unidade V, ambas em Markdown, com 16 questões cada.
 - Produzidos gabaritos completos: respostas conceituais desenvolvidas, múltipla escolha comentada com distribuição equilibrada e correspondência integral com as atividades dos quatro notebooks.
-- Emitidos sete pareceres e consolidação para o notebook 05.04, além dos pareceres de alinhamento, exatidão, formatação e consolidação das listas.
+- Emitidos sete pareceres e consolidação para o notebook 05.05, além dos pareceres de alinhamento, exatidão, formatação e consolidação das listas.
 - Unidade V marcada como concluída após validação de notebooks, exercícios, gabaritos, identificadores e documentação.
-- Produzido o notebook `05_03_arvores_de_decisao.ipynb`, baseado na seção 6.2 do livro-guia.
+- Produzido o notebook `05_04_arvores_de_decisao.ipynb`, baseado na seção 6.2 do livro-guia.
 - Explicadas a anatomia da árvore, construção gulosa, regras `SE–ENTÃO`, índice Gini, pré-poda, pós-poda e importância de atributos.
 - Criado exemplo manual com 12 clientes: Gini da raiz 0,4861, impureza após a divisão 0,2762 e redução 0,2099.
 - Incluídas três ilustrações computacionais: árvore rasa, curvas de desempenho por profundidade e importância por redução de impureza.
 - Demonstrado sobreajuste com árvore sem limite: 108 folhas, acurácia 1,000 no treino e 0,750 no teste.
-- Criadas quatro atividades `U05-NB03-*` e gabarito separado com cálculos, leitura de caminhos, comparação de complexidade e rubricas.
-- Notebook 05.03 executado com `uv`: 25 células, oito de código, três figuras, identificadores únicos e nenhuma saída de erro.
-- Produzido o notebook `05_02_classificadores_bayesianos_e_knn.ipynb`, baseado nas seções 6.3 e 6.4 do livro-guia.
-- Desenvolvido exemplo manual de Naive Bayes com probabilidades prévias, verossimilhanças, independência condicional, suavização de Laplace, escores e posterior normalizada.
-- Criada comparação visual autoral do k-NN antes e depois da padronização, demonstrando a mudança dos três vizinhos e da classe prevista.
-- Explicado intuitivamente o efeito de $k$, da distância, da escala, de atributos irrelevantes e do custo de previsão.
-- Criadas quatro atividades `U05-NB02-*` e gabarito separado com soluções completas, cálculos e rubricas.
-- Notebook 05.02 executado com `uv`: 21 células, seis de código, uma figura, identificadores únicos e nenhuma saída de erro.
+- Criadas quatro atividades `U05-NB04-*` e gabarito separado com cálculos, leitura de caminhos, comparação de complexidade e rubricas.
+- Notebook 05.04 executado com `uv`: 25 células, oito de código, três figuras, identificadores únicos e nenhuma saída de erro.
 - Ampliada a Unidade V em `resumo_disciplina.md` com formulação supervisionada, treino/teste, *baseline*, vazamento, matriz de confusão, custos dos erros e avaliação de regressão.
 - Delimitado no plano que a unidade apresenta intuição, aplicação e interpretação dos métodos sob a perspectiva de mineração de dados, sem aprofundamento próprio de uma disciplina especializada de aprendizado de máquina.
 - Produzido o notebook `05_01_processo_e_avaliacao_de_classificacao.ipynb`, baseado nas seções 6.1 e 6.6 de Han, Pei e Tong.

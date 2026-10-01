@@ -293,32 +293,20 @@ Antes da Unidade I:
 **Notebooks previstos**
 
 1. `05_01_processo_e_avaliacao_de_classificacao.ipynb`
-   - classificação versus regressão e fluxo supervisionado;
-   - treino, teste, *baseline* e vazamento de dados;
-   - matriz de confusão, acurácia, precisão, revocação e F1;
-   - desbalanceamento, limiar e custo dos erros;
-   - introdução intuitiva a ROC e AUC, sem aprofundamento matemático.
-2. `05_02_classificadores_bayesianos_e_knn.ipynb`
-   - intuição do Teorema de Bayes e da hipótese de independência;
-   - exemplo pequeno e interpretável de Naive Bayes;
-   - classificação por vizinhança, escala e escolha de $k$;
-   - comparação das perguntas e limitações dos dois métodos.
-3. `05_03_arvores_de_decisao.ipynb`
-   - intuição de divisões sucessivas e impureza;
-   - leitura de uma árvore como regras `SE–ENTÃO`;
-   - profundidade, poda, sobreajuste e interpretabilidade;
-   - importância de atributos como pista descritiva, não efeito causal.
-4. `05_04_regressao_linear.ipynb`
-   - diferença entre alvo categórico e alvo numérico;
-   - intuição da reta ou superfície de regressão e dos resíduos;
-   - regressão simples e múltipla com exemplos pequenos;
-   - MAE, RMSE e coeficiente de determinação;
-   - interpretação cautelosa de coeficientes, extrapolação e associação.
-5. `05_05_bagging_e_florestas_aleatorias.ipynb`
+   - classificação versus regressão, treino, teste, baseline, vazamento e métricas.
+2. `05_02_knn.ipynb`
+   - vizinhança, distância, escala, escolha de $k$ e limitações.
+3. `05_03_classificadores_bayesianos.ipynb`
+   - Teorema de Bayes, independência condicional, Laplace, escores e posteriores.
+4. `05_04_arvores_de_decisao.ipynb`
+   - divisões, impureza, regras, poda, sobreajuste e importância.
+5. `05_05_regressao_linear.ipynb`
+   - regressão simples e múltipla, resíduos, métricas, coeficientes e extrapolação.
+6. `05_06_bagging_e_florestas_aleatorias.ipynb`
    - bootstrap, OOB, redução de variância e florestas aleatórias.
-6. `05_06_ensembles_votacao_e_boosting.ipynb`
+7. `05_07_ensembles_votacao_e_boosting.ipynb`
    - votação dura e suave, boosting e comparação de ensembles.
-7. `05_07_relevancia_preditiva_e_shapley.ipynb`
+8. `05_08_relevancia_preditiva_e_shapley.ipynb`
    - relevância global e local, permutação e valores de Shapley.
 
 **Atividade integradora:** comparar classificadores individuais e ensembles sob o mesmo protocolo, justificar a combinação, avaliar custo e estabilidade e explicar previsões global e localmente; em seguida, construir uma regressão e interpretar previsões e resíduos.
