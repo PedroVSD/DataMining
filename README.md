@@ -78,9 +78,14 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Avaliação de agrupamentos](notebooks/unidade_06/06_07_avaliacao_de_agrupamentos.ipynb)
    - [Exercícios conceituais](exercicios/unidade_06/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_06/multipla_escolha.md)
+8. Unidade VII — Detecção de *Outliers*
+   - [Conceitos e métodos estatísticos](notebooks/unidade_07/07_01_conceitos_e_metodos_estatisticos.ipynb)
+   - [Proximidade, densidade e agrupamento](notebooks/unidade_07/07_02_proximidade_densidade_e_agrupamento.ipynb)
+   - [Exercícios conceituais](exercicios/unidade_07/exercicios_conceituais.md)
+   - [Questões de múltipla escolha](exercicios/unidade_07/multipla_escolha.md)
 
 Os gabaritos ficam exclusivamente em `gabaritos/`, separados do material do estudante. Toda questão das listas e dos notebooks deve possuir resposta associada nessa pasta.
 
 Os identificadores exibidos nas atividades, como `U02-NB01-E01`, permitem localizar diretamente a resposta-modelo e os critérios no gabarito correspondente.
 
-As unidades seguintes serão adicionadas conforme o [plano de execução](contexto/plano_execucao.md). O andamento verificável está no [registro de execução](contexto/registro_execucao.md).
+As próximas entregas serão adicionadas conforme o [plano de execução](contexto/plano_execucao.md). O andamento verificável está no [registro de execução](contexto/registro_execucao.md).

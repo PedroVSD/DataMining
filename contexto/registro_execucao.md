@@ -23,7 +23,7 @@ Estados permitidos:
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-30 | Oito notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VI — Análise de Grupos | Concluída | 100% | 2026-09-27 | Sete notebooks, listas, gabaritos e pareceres produzidos e validados |
-| Unidade VII — Detecção de Outliers | Não iniciada | 0% | — | — |
+| Unidade VII — Detecção de Outliers | Em revisão | 85% | 2026-10-14 | Dois notebooks, listas e gabaritos produzidos; execução limpa aprovada; pareceres pendentes |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
 
 ## Controle dos notebooks
@@ -59,8 +59,8 @@ Estados permitidos:
 | `06_05_metodos_baseados_em_grade.ipynb` | Métodos baseados em grade | Concluída | Concluída | Aprovada | Concluída |
 | `06_06_modelos_de_mistura_gaussiana.ipynb` | Misturas Gaussianas e EM | Concluída | Concluída | Aprovada | Concluída |
 | `06_07_avaliacao_de_agrupamentos.ipynb` | Avaliação de grupos | Concluída | Concluída | Aprovada | Concluída |
-| `07_01_conceitos_e_metodos_estatisticos.ipynb` | Outliers e estatística | Pendente | Pendente | Pendente | Pendente |
-| `07_02_proximidade_densidade_e_agrupamento.ipynb` | Métodos de detecção | Pendente | Pendente | Pendente | Pendente |
+| `07_01_conceitos_e_metodos_estatisticos.ipynb` | Outliers e estatística | Concluída | Pendente | Aprovada | Pendente |
+| `07_02_proximidade_densidade_e_agrupamento.ipynb` | Métodos de detecção | Concluída | Pendente | Aprovada | Pendente |
 
 ## Controle dos exercícios e gabaritos
 
@@ -72,9 +72,18 @@ Estados permitidos:
 | IV — Mineração de Padrões | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | V — Classificação e Regressão | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
 | VI — Análise de Grupos | Concluído | Concluída | Concluído | Concluído | Concluídos | Aprovada |
-| VII — Detecção de Outliers | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente |
+| VII — Detecção de Outliers | Concluído | Concluída | Concluído | Concluído | Concluídos | Pendente |
 
 ## Histórico
+
+### 2026-10-14
+
+- Elaborada a Unidade VII em dois notebooks, conforme o Capítulo 11 do livro-guia e o plano da disciplina.
+- O notebook 07.01 apresenta anomalias globais, contextuais e coletivas, causas, escore-z, IQR, MAD, referência contextual e protocolo de investigação.
+- O notebook 07.02 compara distância ao k-ésimo vizinho, LOF, ruído do DBSCAN e distância a centroides; inclui avaliação sob orçamento e lista priorizada de investigação.
+- Criadas 17 questões conceituais, 16 questões de múltipla escolha e 11 atividades nos notebooks, todas com gabaritos separados e rubricas quando aplicável.
+- Os dois notebooks foram executados integralmente no ambiente do projeto, totalizando 13 células de código, seis figuras e nenhuma saída de erro.
+- A unidade permanece em revisão até a emissão dos pareceres técnico, didático, editorial, de referências, alinhamento e reprodutibilidade.
 
 ### 2026-09-30
 
