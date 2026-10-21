@@ -80,6 +80,7 @@ Estados permitidos:
 
 - Ampliada a seção de Rand e Rand ajustado do notebook 06.07 com a interpretação por pares, os quatro tipos de decisão, um exemplo manual do RI, a motivação da correção pelo acaso e um quadro comparativo entre RI e ARI.
 - Explicitado que o ARI mede concordância com uma partição de referência sob um modelo de acaso e não avalia, isoladamente, geometria, utilidade ou justiça dos grupos.
+- Acrescentada uma figura autoral com dois painéis: classificação visual dos pares em VP, VN, FP e FN; e comparação entre RI e ARI em cinco partições, incluindo concordância por acaso e ARI negativo. O notebook foi reexecutado integralmente sem erros.
 
 ### 2026-10-14
 
