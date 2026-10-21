@@ -76,6 +76,11 @@ Estados permitidos:
 
 ## Histórico
 
+### 2026-10-21
+
+- Ampliada a seção de Rand e Rand ajustado do notebook 06.07 com a interpretação por pares, os quatro tipos de decisão, um exemplo manual do RI, a motivação da correção pelo acaso e um quadro comparativo entre RI e ARI.
+- Explicitado que o ARI mede concordância com uma partição de referência sob um modelo de acaso e não avalia, isoladamente, geometria, utilidade ou justiça dos grupos.
+
 ### 2026-10-14
 
 - Elaborada a Unidade VII em dois notebooks, conforme o Capítulo 11 do livro-guia e o plano da disciplina.
