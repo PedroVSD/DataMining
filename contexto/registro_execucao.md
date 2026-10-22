@@ -84,6 +84,7 @@ Estados permitidos:
 - O conteúdo estatístico passou ao notebook 07.02, enquanto proximidade, LOF, DBSCAN e agrupamento passaram ao 07.03; identificadores e gabaritos foram renumerados.
 - Acrescentadas questões específicas sobre combinações multivariadas às listas; a unidade passou a reunir 18 questões conceituais, 17 objetivas e 16 atividades internas com gabaritos separados.
 - Os três notebooks foram executados integralmente, totalizando 16 células de código, oito figuras e nenhuma saída de erro.
+- Acrescentadas tabelas finais de decisão aos notebooks 07.02 e 07.03, relacionando cada método univariado ou multivariado aos cenários recomendados, à evidência produzida e às principais situações de cautela.
 - Ampliada a seção de Rand e Rand ajustado do notebook 06.07 com a interpretação por pares, os quatro tipos de decisão, um exemplo manual do RI, a motivação da correção pelo acaso e um quadro comparativo entre RI e ARI.
 - Explicitado que o ARI mede concordância com uma partição de referência sob um modelo de acaso e não avalia, isoladamente, geometria, utilidade ou justiça dos grupos.
 - Acrescentadas duas figuras autorais: uma comparação espacial, em dois painéis, entre o gabarito e a partição produzida; e outra com a classificação dos pares em VP, VN, FP e FN e a comparação entre RI e ARI em cinco partições. O notebook foi reexecutado integralmente sem erros.
