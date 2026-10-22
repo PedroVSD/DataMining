@@ -48,6 +48,8 @@
 
 16. **U07-C16.** Elabore um protocolo operacional de detecção de anomalias que inclua finalidade, população, representação, validação temporal, orçamento, revisão humana, preservação do dado, impactos sobre pessoas e monitoramento.
 
+17. **U07-C17.** Construa um exemplo com dois atributos no qual uma observação seja comum em cada distribuição marginal, mas rara na distribuição conjunta. Explique como escala, correlação e projeção podem alterar sua caracterização.
+
 ## Desafio opcional
 
-17. **U07-C17.** Em alta dimensionalidade, distâncias entre vizinhos tendem a se tornar menos contrastantes. Explique consequências para k-NN e LOF e proponha um experimento para verificar se redução de dimensionalidade ajuda sem ocultar anomalias relevantes.
+18. **U07-C18.** Em alta dimensionalidade, distâncias entre vizinhos tendem a se tornar menos contrastantes. Explique consequências para k-NN e LOF e proponha um experimento para verificar se redução de dimensionalidade ajuda sem ocultar anomalias relevantes.

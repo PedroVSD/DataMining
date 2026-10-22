@@ -18,3 +18,4 @@
 | U07-M14 | B | Precisão@10 é a fração confirmada entre os dez casos priorizados. |
 | U07-M15 | C | A disponibilidade do rótulo depende da seleção feita pelo detector. |
 | U07-M16 | D | Revisão contextual, registro e contestação separam alerta de decisão e reduzem dano indevido. |
+| U07-M17 | C | Uma combinação pode ser rara na distribuição conjunta mesmo quando os valores marginais são comuns. |

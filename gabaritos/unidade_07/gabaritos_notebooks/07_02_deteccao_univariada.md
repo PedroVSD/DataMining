@@ -1,12 +1,12 @@
-# Gabarito — 07.01 Conceitos e métodos estatísticos
+# Gabarito — 07.02 Detecção univariada
 
-## U07-NB01-V01
+## U07-NB02-V01
 
 É uma possível anomalia contextual: o valor só pode ser avaliado em relação ao tipo de cliente, porte, período e comportamento histórico. Um limiar global mistura distribuições distintas; pode sinalizar empresas legítimas em excesso ou deixar de perceber gastos incomuns de pessoas físicas.
 
 **Rubrica (4 pontos):** tipo contextual (1), referência condicionada (1), falha do limite global (1), ausência de diagnóstico automático (1).
 
-## U07-NB01-E01
+## U07-NB02-E01
 
 Com a interpolação linear do pandas, $Q_1=5$, $Q_3=6{,}5$ e $IQR=1{,}5$. Logo,
 
@@ -18,7 +18,7 @@ Somente 30 está fora das cercas. O resultado depende da convenção de quartis,
 
 **Rubrica (6 pontos):** quartis (2), IQR (1), cercas (2), identificação e ressalva (1).
 
-## U07-NB01-E02
+## U07-NB02-E02
 
 Média e desvio-padrão usam todos os valores e podem ser deslocados por extremos, reduzindo o próprio escore-z. Mediana e MAD resistem a uma proporção maior de contaminação e preservam melhor o centro e a escala do conjunto principal.
 
@@ -26,7 +26,7 @@ A regra robusta ainda pode falhar em dados multimodais, sazonais ou contextuais;
 
 **Rubrica (6 pontos):** influência nos dois pares de medidas (3), cenário de falha (2), interpretação prudente (1).
 
-## U07-NB01-E03
+## U07-NB02-E03
 
 Fluxo-modelo:
 
@@ -40,7 +40,7 @@ Fluxo-modelo:
 
 **Rubrica (8 pontos):** preservação/rastreabilidade (2), falha de sensor (1), mudança operacional (1), evento legítimo (1), decisão com incerteza (2), retroalimentação (1).
 
-## U07-NB01-E04
+## U07-NB02-E04
 
 Com a semente e os dados do notebook, os três limiares sinalizam somente a observação 95:
 

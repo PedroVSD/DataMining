@@ -100,8 +100,8 @@ Bibliotecas-base previstas: Python, NumPy, pandas, SciPy, Matplotlib, Seaborn, s
 | IV | Mineração de Padrões | 8 h | 3 |
 | V | Classificação e Regressão | 12 h | 4 |
 | VI | Análise de Grupos | 10 h | 3 |
-| VII | Detecção de Outliers | 6 h | 2 |
-| **Total** |  | **60 h** | **20** |
+| VII | Detecção de Outliers | 6 h | 3 |
+| **Total** |  | **60 h** | **21** |
 
 A quantidade de notebooks é uma estimativa. Um notebook deverá ser dividido quando sua leitura ou execução se tornar longa demais, sem alterar a carga ou os objetivos da unidade.
 
@@ -385,11 +385,16 @@ Antes da Unidade I:
 
 **Notebooks previstos**
 
-1. `07_01_conceitos_e_metodos_estatisticos.ipynb`
-   - tipos e causas de anomalias;
+1. `07_01_caracterizacao_de_outliers.ipynb`
+   - definição relativa, causas e consequências das anomalias;
+   - anomalias globais, contextuais e coletivas;
+   - dados univariados e multivariados e mudança da forma observada;
+   - exemplos de aplicação e formulação do problema.
+2. `07_02_deteccao_univariada.ipynb`
    - escore-z, intervalo interquartil e métodos robustos;
-   - pressupostos, exemplos manuais e visualizações.
-2. `07_02_proximidade_densidade_e_agrupamento.ipynb`
+   - pressupostos, exemplos manuais e visualizações;
+   - referências condicionais e sensibilidade aos limiares.
+3. `07_03_deteccao_multivariada.ipynb`
    - distância ao k-ésimo vizinho e LOF;
    - DBSCAN e isolamento de pontos;
    - comparação de métodos em diferentes geometrias;

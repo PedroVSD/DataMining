@@ -79,8 +79,9 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Exercícios conceituais](exercicios/unidade_06/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_06/multipla_escolha.md)
 8. Unidade VII — Detecção de *Outliers*
-   - [Conceitos e métodos estatísticos](notebooks/unidade_07/07_01_conceitos_e_metodos_estatisticos.ipynb)
-   - [Proximidade, densidade e agrupamento](notebooks/unidade_07/07_02_proximidade_densidade_e_agrupamento.ipynb)
+   - [Caracterização de outliers](notebooks/unidade_07/07_01_caracterizacao_de_outliers.ipynb)
+   - [Detecção univariada](notebooks/unidade_07/07_02_deteccao_univariada.ipynb)
+   - [Detecção multivariada](notebooks/unidade_07/07_03_deteccao_multivariada.ipynb)
    - [Exercícios conceituais](exercicios/unidade_07/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_07/multipla_escolha.md)
 

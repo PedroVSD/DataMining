@@ -145,3 +145,12 @@ Qual prática é mais responsável após gerar um alerta sobre uma pessoa?
 - [ ] **B.** Apagar o dado original depois da correção
 - [ ] **C.** Divulgar publicamente o escore individual
 - [ ] **D.** Registrar a razão, revisar o contexto e permitir contestação
+
+## U07-M17
+
+Uma observação possui valores comuns quando cada atributo é examinado separadamente, mas apresenta combinação incompatível com a relação usual entre os atributos. Esse caso é melhor caracterizado como:
+
+- [ ] **A.** ausência de anomalia, pois nenhuma variável é extrema
+- [ ] **B.** anomalia exclusivamente coletiva
+- [ ] **C.** possível anomalia multivariada
+- [ ] **D.** erro confirmado de medição

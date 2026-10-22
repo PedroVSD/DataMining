@@ -98,7 +98,13 @@ O critério deve incorporar valor ou custo esperado. Por exemplo, estimar para c
 
 Um protocolo completo deve: definir finalidade e ações permitidas; delimitar população, período e unidade; selecionar atributos, escala e contexto; preservar dados brutos e rastrear versões; separar períodos de desenvolvimento e avaliação; comparar referências e métodos; escolher limiar segundo custo e orçamento; avaliar precisão, revocação, estabilidade e subgrupos; investigar com revisão humana e evidência adicional; proibir sanção automática; permitir correção e contestação; registrar decisão; monitorar distribuição, taxa de alerta, confirmações, impacto e mudança; e definir quando recalibrar ou suspender o sistema.
 
-## U07-C17 — Desafio opcional
+## U07-C17
+
+Exemplo: em uma população, $x$ e $y$ têm distribuições aproximadamente normais e correlação positiva. O ponto $(1{,}2,-1{,}2)$ não é extremo em nenhuma marginal, mas fica longe da faixa diagonal ocupada pelas combinações usuais. Uma análise separada de $x$ e $y$ pode não sinalizá-lo; a representação conjunta revela que ele viola a relação entre os atributos.
+
+Sem padronização, a variável de maior amplitude pode dominar distâncias. A correlação define direções de variação comum, tornando mais relevante o afastamento perpendicular à relação. Uma projeção pode revelar o padrão quando preserva essa direção ou escondê-lo quando comprime justamente a dimensão do desvio. A conclusão deve ser verificada no espaço original.
+
+## U07-C18 — Desafio opcional
 
 Com muitas dimensões, distâncias podem se concentrar: o vizinho mais próximo e o mais distante ficam relativamente parecidos. Rankings k-NN tornam-se instáveis e as razões de densidade do LOF perdem contraste; atributos irrelevantes também dominam a medida.
 

@@ -88,6 +88,8 @@ Ao final da disciplina, o aluno deve:
 ### Unidade VII — Detecção de *Outliers*
 
 - Causas de anomalias.
+- Caracterização de anomalias globais, contextuais e coletivas.
+- Diferença entre análise univariada e multivariada e efeito da representação sobre a forma da anomalia.
 - Abordagens estatísticas.
 - Detecção de elementos estranhos baseada em proximidade e densidade.
 - Técnicas baseadas em agrupamentos.
