@@ -93,6 +93,7 @@ Ao final da disciplina, o aluno deve:
 - Abordagens estatísticas.
 - Detecção de elementos estranhos baseada em proximidade e densidade.
 - Técnicas baseadas em agrupamentos.
+- Fluxo de decisão com diagnósticos, comparação, validação, investigação e monitoramento.
 
 ## Bibliografia básica
 

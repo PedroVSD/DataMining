@@ -82,6 +82,7 @@ Evite instalar pacotes diretamente com `pip`, `conda` ou comandos `!pip` nos not
    - [Caracterização de outliers](notebooks/unidade_07/07_01_caracterizacao_de_outliers.ipynb)
    - [Detecção univariada](notebooks/unidade_07/07_02_deteccao_univariada.ipynb)
    - [Detecção multivariada](notebooks/unidade_07/07_03_deteccao_multivariada.ipynb)
+   - [Fluxo de decisão para detecção](notebooks/unidade_07/07_04_fluxo_de_decisao.ipynb)
    - [Exercícios conceituais](exercicios/unidade_07/exercicios_conceituais.md)
    - [Questões de múltipla escolha](exercicios/unidade_07/multipla_escolha.md)
 

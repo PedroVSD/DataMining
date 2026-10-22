@@ -23,7 +23,7 @@ Estados permitidos:
 | Unidade IV — Mineração de Padrões | Concluída | 100% | 2026-09-21 | Avaliação responsável separada no novo 04.05; materiais, gabaritos e pareceres validados |
 | Unidade V — Classificação e Regressão | Concluída | 100% | 2026-09-30 | Oito notebooks, listas, gabaritos e pareceres produzidos e validados |
 | Unidade VI — Análise de Grupos | Concluída | 100% | 2026-09-27 | Sete notebooks, listas, gabaritos e pareceres produzidos e validados |
-| Unidade VII — Detecção de Outliers | Em revisão | 90% | 2026-10-21 | Três notebooks, listas e gabaritos produzidos; execução limpa aprovada; pareceres pendentes |
+| Unidade VII — Detecção de Outliers | Em revisão | 90% | 2026-10-21 | Quatro notebooks, listas e gabaritos produzidos; execução limpa aprovada; pareceres pendentes |
 | Projeto integrador e revisão final | Não iniciada | 0% | — | — |
 
 ## Controle dos notebooks
@@ -62,6 +62,7 @@ Estados permitidos:
 | `07_01_caracterizacao_de_outliers.ipynb` | Caracterização e aplicações | Concluída | Pendente | Aprovada | Pendente |
 | `07_02_deteccao_univariada.ipynb` | Métodos univariados | Concluída | Pendente | Aprovada | Pendente |
 | `07_03_deteccao_multivariada.ipynb` | Métodos multivariados | Concluída | Pendente | Aprovada | Pendente |
+| `07_04_fluxo_de_decisao.ipynb` | Fluxo de decisão para detecção | Concluída | Pendente | Aprovada | Pendente |
 
 ## Controle dos exercícios e gabaritos
 
@@ -79,12 +80,13 @@ Estados permitidos:
 
 ### 2026-10-21
 
-- Reorganizada a Unidade VII em três notebooks: caracterização de outliers, detecção univariada e detecção multivariada.
+- Reorganizada a Unidade VII em quatro notebooks: caracterização de outliers, detecção univariada, detecção multivariada e fluxo de decisão.
 - Criado o notebook 07.01 com distinções entre anomalias globais, contextuais e coletivas, dados univariados e multivariados, mudança de forma e exemplos de aplicação.
 - O conteúdo estatístico passou ao notebook 07.02, enquanto proximidade, LOF, DBSCAN e agrupamento passaram ao 07.03; identificadores e gabaritos foram renumerados.
-- Acrescentadas questões específicas sobre combinações multivariadas às listas; a unidade passou a reunir 18 questões conceituais, 17 objetivas e 16 atividades internas com gabaritos separados.
-- Os três notebooks foram executados integralmente, totalizando 16 células de código, oito figuras e nenhuma saída de erro.
+- Acrescentadas questões específicas sobre combinações multivariadas às listas; a unidade passou a reunir 18 questões conceituais, 17 objetivas e 21 atividades internas com gabaritos separados.
+- Os quatro notebooks foram executados integralmente, totalizando 20 células de código, 11 figuras e nenhuma saída de erro.
 - Acrescentadas tabelas finais de decisão aos notebooks 07.02 e 07.03, relacionando cada método univariado ou multivariado aos cenários recomendados, à evidência produzida e às principais situações de cautela.
+- Criado o notebook 07.04 com fluxograma autoral, diagnósticos, comparação de quatro métodos em um estudo de caso, análise de sensibilidade e modelo de registro auditável da escolha.
 - Ampliada a seção de Rand e Rand ajustado do notebook 06.07 com a interpretação por pares, os quatro tipos de decisão, um exemplo manual do RI, a motivação da correção pelo acaso e um quadro comparativo entre RI e ARI.
 - Explicitado que o ARI mede concordância com uma partição de referência sob um modelo de acaso e não avalia, isoladamente, geometria, utilidade ou justiça dos grupos.
 - Acrescentadas duas figuras autorais: uma comparação espacial, em dois painéis, entre o gabarito e a partição produzida; e outra com a classificação dos pares em VP, VN, FP e FN e a comparação entre RI e ARI em cinco partições. O notebook foi reexecutado integralmente sem erros.

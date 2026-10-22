@@ -100,8 +100,8 @@ Bibliotecas-base previstas: Python, NumPy, pandas, SciPy, Matplotlib, Seaborn, s
 | IV | Mineração de Padrões | 8 h | 3 |
 | V | Classificação e Regressão | 12 h | 4 |
 | VI | Análise de Grupos | 10 h | 3 |
-| VII | Detecção de Outliers | 6 h | 3 |
-| **Total** |  | **60 h** | **21** |
+| VII | Detecção de Outliers | 6 h | 4 |
+| **Total** |  | **60 h** | **22** |
 
 A quantidade de notebooks é uma estimativa. Um notebook deverá ser dividido quando sua leitura ou execução se tornar longa demais, sem alterar a carga ou os objetivos da unidade.
 
@@ -399,6 +399,11 @@ Antes da Unidade I:
    - DBSCAN e isolamento de pontos;
    - comparação de métodos em diferentes geometrias;
    - avaliação, investigação e comunicação de alertas.
+4. `07_04_fluxo_de_decisao.ipynb`
+   - formulação da finalidade, unidade de análise, referência e ação;
+   - diagnósticos para orientar candidatos univariados e multivariados;
+   - comparação, sensibilidade, validação temporal e orçamento operacional;
+   - registro auditável da escolha, investigação e monitoramento.
 
 **Atividade integradora:** analisar um cenário de fraude, falha ou qualidade de dados, comparar métodos e produzir uma lista priorizada de observações para investigação.
 
